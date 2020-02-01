@@ -1,0 +1,28 @@
+Reading 20-21
+
+1. changes in yield curve
+[1] parallel shift (level)
+[2] slope
+    spread = yield_long - yield_short
+[3] curvature
+    butterfly spread = 2 * yield_mid - yield_short - yield_long
+- short-term rates are more volatile than long-term
+  upward - flattens + less curved
+  downward - stepens + more curved
+
+2. strategy - stable yield curve
+[1] buy and hold
+    in a upward slope, extend maturity to have a higher expected return
+[2] riding the yield curve
+    in a upward slope, buy long-term and sell it later
+                   or, short short-term and long long-term
+[3] sell convexity
+    if no expected change in yield curve, then convexity is useless
+    short bonds with high convexity, long bonds with low convexity
+    high: putable
+    low: callable, MBS(can prepay)
+[4] carry trade
+    if no expected change in yield curve, then duration is no harm
+    long a long-term bond with low financing cost (issuing a low-yield bond)
+    buy bond with repo/ receive fixed, pay float/ long future
+    
