@@ -1,0 +1,34 @@
+Reading 15-16
+
+1. option basics
+- option value = intrinsic value + time value
+  option value = f(S, X, T, rf, sigma), all can be almost certain except sigma, which is the core of pricing
+- profits = payoff - premium
+- synthetic asset
+  forward = call -  put
+  call = asset + put
+  
+2. option strategies
+- covered call = asset - call
+  expectation: stock will rise, but to a certain degree
+  profit = (St - S0) - max(0, St-X) + c
+  [1] yield enhancement
+  short deep OTM call, collect premium
+  [2] reduce position
+  short ITM call, close in the near future
+  [3] target price realization
+  short OTM call, close in the future
+  
+- protective put = asset + put
+  expectation: stock will rise, but do not want to lose
+  profit = (St - S0) + max(0, X-St) - p
+  
+- collar = asset - call + put
+  profit = (St - S0) + max(0, Xp-St) - max(0, St-Xc) - p + c
+  expectation: stock will rise, do not want to lose, but do not want to pay premium
+
+- bull call = call_low - call high (reduce fee)
+  bull put = - put_high + put_low (control risk)
+  bear put = put_high - put_low (reduce fee)
+  bear call = - call_low + call high (control risk)
+  
