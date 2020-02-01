@@ -180,7 +180,48 @@ buy a coupon bond
   low dispersion has low convexity, --  low yield curve risk
 - asset convexity > liability convexity （涨多跌少）
 
+16. derivatives overlay
+DD_L = DD_A + DD_derivative
+to increase duration, you can
+[1] long futures [2] long fixed receiver [3] long fixed receiver swapation
+- futures
+DD_L = DD_A + N*DD_F
+for T-bond, follow the cheapest-to-deliver principle, where P_CTD = P_F * conversion factor(CF)
+DD_F = D_F * P_F = D_CTD * (P_CTD/CF) = DD_CTD/CF
+- swap 
+DD_L = DD_A + NP*DD_swap
 
+- when int rates are low - expected to rise - P_A decrease - higher hedge ratio
+- vice versa
+
+17. AO
+[1] passive
+- mimic credit quality, types of borrowers, maturity, and duration
+- consistent with EMH
+- pros/cons: good diversification, full replication is not attainable
+- other ways to replicate
+  open-ended mutual fund
+  ETF - more liquid than mutual fund
+  total return swap -   index CFs - (LIBOR + spread)
+[2] enhanced indexing
+- mirror primary factors
+- more flexible and efficient than passive
+- stratified sampling
+  process: identify primary characteristic, find similar bonds, choose the best among them
+  enhance: lower cost, issue selection, yield curve, sector/quality, call exposure
+  when int rate rise, more callable (cheap) / putable (safe) bond
+  when int rate fall, less callable (unsafe) / putable (cheap) bond
+- primary indexing
+  int rate risk - effective duration
+  yield curve risk - key rate duration (PVD - pv of distribution)
+  spread risk - spread duration
+  sector and quality
+  optionality
+  issuer exposure
+  
+18. laddered bond portfolio
+pros: diversified / modest convexity / liqudity mgt
+cons: hard to build
 
 
 
