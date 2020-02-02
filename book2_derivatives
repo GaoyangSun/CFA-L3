@@ -60,3 +60,50 @@ Reading 15-16
     call: delta from 0 to 1, put: from -1 to 0
     for both, gamma > 0, largest ATM
     
+4. volatility smile
+implied volatility ~ X
+- foreign currency, symmetric smile
+- equity, skewed to the right
+  leverage/ volatility feedback/ crashphobia
+  strategy: long options with high implied vol, short with low vol
+  [1] OTM call - OTM put = long forward 
+  [2] ITM put - ITM call = short forward
+  
+
+5. int rate derivatives
+[1] int rate swap
+    - duration of floating bond = reset period (*0.5)
+      as the next pmt has been set, so the int rate will have full impact on single cf
+    - duration_fix > duration_floating
+      so duration_receiver = duration_fix - duration_float > 0
+      
+[2] forward rate agreement
+    virtually borrow money at a pre-specified rate in the future
+    long - floating (mkt) - X  (positively with int rate)
+
+[3] short-term int rate (STIR) futures
+    eurodollar futures - quotes 1 million @ 100 - annualized forward rate, ususally quarterly
+    long - 100 - forward rate  (negatively with int rate)
+    
+[4] longer-dated FI futures
+    underlying: hypothetical 30 yr T-bond with 6% coupon rate
+    delivery: physical settlement, designated by shorter, CTD with maturity > 15 yrs
+    to adjust duration, D_Target * P_portfolio = D_portfolio * P_portfolio + N * D_future * P_future
+                        D_future = D_CTD / CF
+                        N = (D_target - D_portfolio)/D_future  *  P_portfolio/P_future
+                          = (DD_target - DD_portfolio)/DD_CTD  *  CF
+                          
+6. Equity derivatives
+[1] equity swap
+    receive equity return, pay fixed rate/ floating rate/ another equity return
+
+[2] equtiy futures and forward
+    to adjust beta, beta_target * P_portfolio = beta_portfolio * P_portflio + Nf * beta_future * P_future
+                    P_future = index_future * multiplier
+                    N = (beta_target-beta_portoflio)/beta_future  *  P_portoflio/(index_future*multipler)
+    synthetic cash (beta_target=0) = stock - future
+    synthetic equity (beta_portfolio=0) = risk-free + future
+    
+7. Equity/bond transform 
+   stock - (decrease beta) - cash - (add duration) - bond
+   
