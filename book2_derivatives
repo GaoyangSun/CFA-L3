@@ -32,3 +32,31 @@ Reading 15-16
   bear put = put_high - put_low (reduce fee)
   bear call = - call_low + call high (control risk)
   
+- straddle = call + put @ same maturity and X
+
+- calendar spread = long-term option - short-term option
+  which longs the "forward volatility", as time value decays more in short-term than long-term
+
+- by volatility
+  high: long call/put
+  low: short call/put
+  mid: long and short call/put
+  
+3. greeks (option price change / ...)
+[1] delta - underlying
+    c = S*N(d1) - K*exp(-rT)*N(d2) 
+    p = S*N(-d1) - K*exp(-rT)*N(-d2)
+    delta_call = N(d1) ~ (0,1)
+    delta_put = N(-d1) ~ (-1,0)
+    draw option value ~ X, delta_OTM = 0, 1 = abs delta ITM
+[2] vega > 0 - volatility
+[3] rho - risk-free rate
+    rho_call > 0
+    rho_put < 0
+[4] theta < 0 - passage of time
+    except for deep ITM put
+[5] gamma - delta ~ underlying
+    draw option value ~ X
+    call: delta from 0 to 1, put: from -1 to 0
+    for both, gamma > 0, largest ATM
+    
