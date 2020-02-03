@@ -104,6 +104,12 @@ implied volatility ~ X
     synthetic cash (beta_target=0) = stock - future
     synthetic equity (beta_portfolio=0) = risk-free + future
     
-7. Equity/bond transform 
-   stock - (decrease beta) - cash - (add duration) - bond
-   
+- Equity/bond transform 
+  stock - (decrease beta) - cash - (add duration) - bond
+
+
+
+
+
+
+
