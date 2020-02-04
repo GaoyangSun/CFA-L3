@@ -1,0 +1,35 @@
+1. currency swaps
+[1] cross-currency basis swap
+    - you need a loan in fx - you borrow local, then swap it with fx
+    - principals switched at the begining, int pmt not netted
+    - basis stands for financial cost for using swap
+[2] synthetic borrowing
+    - you receice fx, change it into local - you swap it with local
+    - no principals switched
+    - swapRate_A = 3%, swapRate_B = 5% - NP_A * 3% = NP_B * 5%
+    
+2. currency forward and future 
+- you need to exchange currency A to B @ pre-specified rate
+- hedge ratio = amount of currency to be exchanged/future contract size
+
+3. volatility derivatives
+VIX - implied volatility in S&P 500 for 30 days
+VIX return negatively correlates with equity return
+- VIX futures - cannot buy spot VIX, buy futures
+- variance swap
+  fixed exchange for implied volatility^2
+  settlement amt = notional variance * (sigma^2 - K^2)
+  MtM variance valuation
+  - expected variance = realized var*t/T + K^2*(T-t)/T
+  - expected payoff = notional variance * (expected variance - K^2)
+  - discount with rf
+  
+4. other derivatives
+[1] fed funds futures
+    contract price = 100 - expected FFE rate
+[2] eurodollar futures
+    contract price = 100 - future int rate
+[3] CPI swaps
+     
+  
+
