@@ -31,5 +31,18 @@ VIX return negatively correlates with equity return
     contract price = 100 - future int rate
 [3] CPI swaps
      
+5. currency basics
+- MtM value of a forward
+  @ maturity - Vt = (St - FP) * contract size
+  @ t - Vt = (FPt - FP0)*contract size/(1 + rf*(days/360))
+- FX swap
+  close the forward contract, open another one - roll forwards
+- retuen decompose
+  r_FC - foreign-currency return
+  r_FX - change in currency pair
+  r_DC - return in domestic perspective
+  
+  r_DC = (1+r_FC)(1+r_FX) - 1
+  on portfolio, r_DC = sum over wi*(1+r_FCi)*(1+r_FXi) - 1
   
 
