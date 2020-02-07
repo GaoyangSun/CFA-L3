@@ -25,4 +25,48 @@ Reading 20-21
     if no expected change in yield curve, then duration is no harm
     long a long-term bond with low financing cost (issuing a low-yield bond)
     buy bond with repo/ receive fixed, pay float/ long future
-    
+
+3. strategy - yield curve movement
+[1] duration mgt
+    decrease duration if int rate expected to rise
+    increasee duration if int rate expected to fall
+[2] buy convexity
+    - 涨多跌少
+    - methods (keeping duration-neutral)
+      by pure bond - long high convexity bond, short low convexity bond
+      by embedded option - long putable, short callable
+      by portfolios - long barbell, short bullet
+      by options - long call/put on bond
+      call/put are both convex derivatives
+      V_callable = V_pure - V_call
+      V_putable = V_pure + V_put
+
+4. changes - yield curve movement
+[1] level change
+    - choose the highest return
+    total return = TYM_beg + delta_pricePer
+    where duration = - delta_pricePer / delta_int
+    so, total return = YTM_beg + [-ED_end * delta_int]
+                     = YTM_beg + [-ED_end * (YTM_end - YTM_beg)]
+                     = (yield income + rolldown return) + delta_pricePer
+    - alter convexity
+    by the methods above
+[2] slope change
+    - flattens (short term increase, long term remain or decrease)
+      barbell outperforms bullet
+      so, long barbell, short bullet
+    - flattens (short term decrease, long term remain or increase)
+      barbell underperforms bullet
+      so, long bullet, short barbell
+[3] curvature change
+    - more curvature
+      barbell outperforms bullet
+      so, long barbell, short bullet
+    - less curvature
+      barbell underperforms bullet
+      so, long bullet, short barbell
+[4] volatility change
+    - volatility increase
+      long convexity
+    - volatility decrease
+      short convexity
