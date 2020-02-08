@@ -40,6 +40,9 @@ Reading 20-21
       call/put are both convex derivatives
       V_callable = V_pure - V_call
       V_putable = V_pure + V_put
+[3] butterfly
+    butterfly - long short and long(barbell), short middle(bullet)
+    
 
 4. changes - yield curve movement
 [1] level change
@@ -70,3 +73,22 @@ Reading 20-21
       long convexity
     - volatility decrease
       short convexity
+
+5. inter-mkt carry trade
+[1] with currency risk
+- borrow low int rate currency, lend high int rate currency
+- currency swap, receive high int rate currency
+- borrow low int rate currency, change into fx and invest, also sign a fx forward contract to repay later
+
+[2] without currency risk
+no fx risk because you borrow and invest in the same country, profit comes from yield curve stepness
+- receive fixed (long-term) in steep mkt, receive floating (short-term) in flat mkt
+- long future in steep mkt, short future in flat mkt
+
+[3] covered int rate parity (CIRP)
+invest in base = change into fx(on S) + invest in fx + change back to base(on F)
+1 + r_DC = (F/S) * (1 + r_FC)
+hedge benefit - comes from using F instead of S_t
+(F - S)/S = (F/S) - 1 = r_DC - r_FC
+
+hedged benefit = bond's local mkt return + hedge cost/benefit
