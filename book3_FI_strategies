@@ -115,3 +115,48 @@ benchmark spread = yield on a credit security - yield on a benchmark bond with s
 - I-spread (swap rate as benchmark)
 - Z-spread = spot_c - spot_t
 - OAS (option-adjusted spread)
+
+[4] excess return
+- holding-period excess return
+  XR = spread_beg*t + spread_duration*delta_spread
+- expected excess return
+  EXR = XR - expected loss(t*PD*LGD)
+  
+7. credit analysis approach
+[1] bottom-up approach
+    choose the best relative value from bonds with similar features
+    - divide the credit universe
+    - identify the best relative bond
+      best means highest [expected excess return/credit risk (duration)] bond's sharpe ratio
+[2] top-down approach
+steps (1) macro factors
+      (2) desired credit quality determination
+          - credit cycle/ credit spread changes
+      (3) assess the credit quality of portfolio
+          - average credit rating (S&P over-estimate ratings)
+          - average OAS
+      (4) industry sector allocation
+      (5) expected excess return
+risks (1) int rate measurement and mgt
+      (2) country and fx exposure
+      (3) spread curve
+
+8. others
+[1] liqudity risk
+- measures of secondary mkt liquidity risk
+  tradeing vol./ spread sensitivity to fund outflows/ bid-ask spread
+[2] tail risk
+- portfolio diversification/ tail risk hedge
+[3] international credit mkt
+- credit cycle/ credit quality/ sector decomposition
+- emerging mkt credit
+  concentration in commodities and banking
+  government ownership
+  credit quality (sovereign ceiling)
+[4] structured financial instruments
+- MBS (mortgage)
+  high liquidity/ less default risk/ exposure to real estate/ exposure tp expcted changes in int rate volatility
+- ABS (non-mortgage)
+  more liquid/ diversification
+- CDO (debt)
+  senior/mezz/junior values change with correlation in default
