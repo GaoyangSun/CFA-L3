@@ -1,0 +1,63 @@
+1. Hedge Funds
+- key features
+  low regulatory constraints/ flexible mandates/ aggressive exposure/ larger investment universe
+  free use of leverage/ liquidity constaints/ higher costs/ lock-up period/ notice period
+
+2. Equity 
+[1] long/short - (net long pos)
+    specialist L/S managers (sector-specific focus)
+    generalist L/S managers
+    
+[2] (dedicated) short bias - (net short pos)
+    dedicated short-selling (only short)
+    short-biased (mostly short)
+    active short selling (muddy waters mode)
+
+[3] equity mkt neutral 
+    pairs trading (long/short 2 stocks)
+    stub trading (long/short parent/son company)
+    multi-class trading (long/short bond/stock of same company)
+by leverage: short bias < long/short < equity mkt neutral
+
+3. event-driven 
+[1] soft-catalyst
+    make investments when event has not happened
+[2] hard-catalyst
+    make investments upon event
+- merger arbitrage
+  [1] cash-for-stock
+  Acquiring company buy target company with cash
+  - so you should long T
+  [2] stock-for-stock
+  Acquiring company buy target company with stock
+  - so you should long T and short A
+- distressed scurities
+  bad competiveness/high leverage/poor governance/fraud and irregularities
+
+4. relative-value (FI)
+[1] fixed-income arbitrage
+    duration/ credit quality/ liquidity/ optionality
+    yield curve trade - long/short @ different points on yield curve, to bet on curve flattening or steepening
+    carry trade - long high yield and short low yield, e.g. on/off-the-run
+[2] convertible bond arbitrage
+    long convertible bond, short stocks
+    
+5. opportunistic
+[1] global macro 
+top-down 
+[2] managed futures
+time-series momentum /cross-sectional momentum
+- both have high leverage/volatility/liquidity/ right-tailed return/ low correlation with mkt
+
+6. specialist
+[1] volatility trading (by option)
+time-zone arbitrage (same underlying, different countries)
+cross-asset arbitrage (macro-oriented ?)
+[2] reinsurance / life settlements
+    - low surrender value/ low premium pmts/ high prob
+    
+7. multi-manager 
+[1] FOF
+    diversification/ small investments/ low tail risk/ high mgt fee/ high leverage
+[2] multi-strategy
+    low mgt fee/ efficient TAA/ transparent/ high op risk/ high tail risk
