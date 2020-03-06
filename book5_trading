@@ -1,0 +1,76 @@
+Reading 34
+
+1. motivations to trade
+[1] profit seeking
+- trade urgency/alpha decay
+[2] risk mgt/hedging
+[3] cash flow needs 
+- to minimize cash drag, use equitization (long futures to gain stock exposure)
+[4] corporate actions
+
+2. inputs
+[1] order characteristic
+- side/ size/ relative size
+[2] security characteristic
+- security type/ short-term alpha/ price volatility
+[3] mkt condition
+- liquidity crises
+- volatility and liquidity are negatively related
+[4] trading cost risk aversion
+- high risk aversion - shorter horizon - greater urgency
+[5] mkt impact and execution risk
+- trader's dilemma
+  if you trade fast, high price impact
+               slow, high execution risk (adverse mkt movement)
+               
+3. reference price
+[1] pre-trade benchmarks 
+- decision price/ prev close/ open (no overnight risk)/ arrival risk (latest)
+[2] intraday benchmarks
+- vwap
+  rebalance over the day, have both buy and sell orders
+- twap
+  exclude potential trade outliers
+[3] post-trade benchmarks
+- close
+  to minimize tracking error
+[4] price target benchmarks
+- self-defined
+  support and resistance
+
+4. trading strategies
+- short-term alpha - high urgency
+- long-term alpha - low urgency
+- risk rebalance
+- client redemption (cash outflow)
+- new client mandate (cash inflow)
+
+5. trade implementation choice
+[1] higher-touch approach (with human)
+- principal trade  (dealer)
+- agency trade (broker)
+- OTC/ RFQ(request for quotes)
+[2] low-touch approach (automated)
+- alternatice tradinig systems (ATS)
+  non-exchange
+- direct mkt access (DMA) 
+  for derivatices and currency
+- dark pools
+
+6. algo trading
+[1] execution algo - to reduce trading cost
+    - scheduled POV (percent of volume) 
+      pro: can automatically take advantage of increased liqudity
+      con: higher trading cost/ may not complete
+    - scheduled VWAP (based on yesterday's trading volume distribution by hour)
+    - scheduled TWAP (equal-weighted time schedule)
+      pro: time-slicing schedule
+      con: not take advantage of liqudity condition
+    - liquidity seeking
+      trade faster @ favorable price
+    - arrival price
+      trade close to latest price, large amount at first
+    - dark pools
+    - smart order routers (SORs)
+      highest probability of executing/best mkt price
+[2] profit-seeking algo- to get alpha
