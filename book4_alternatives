@@ -136,11 +136,24 @@ return of HF ~ alpha + risk factor + dummy variable (0 if normal, 1 if distress)
   [2] optimization (mean-variance)
   [3] risk factor based optimization
   
+13. liquidity planning
+[1] maintain the desired allocation
+NAV_t = NAV_t-1 * (1 + growth rate) + contribution_t - distribution_t
+contribution_t = rate of contribution_t * (capital commitment - paid-in capital)
+distribution_t = rate of distribution_t * (NAV_t-1 * (1 + growth rate))
 
+[2] handle capital calls
+invest in liquid securities
 
+[3] plan for the unexpected
+do stress-test
 
+14. monitoring
+- key persons/ interest aligned with investors' interest/ style drift/ risk mgt/ client and asset turnover
 
-
+15. evaluation
+IRR - affected by the timing of CFs
+MOIC(multiple on invested capital) - (NAV + distribution)/total invested capital
 
 
   
