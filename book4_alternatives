@@ -1,3 +1,4 @@
+Reading 26-27
 1. Hedge Funds
 - key features
   low regulatory constraints/ flexible mandates/ aggressive exposure/ larger investment universe
@@ -61,3 +62,85 @@ cross-asset arbitrage (macro-oriented ?)
     diversification/ small investments/ low tail risk/ high mgt fee/ high leverage
 [2] multi-strategy
     low mgt fee/ efficient TAA/ transparent/ high op risk/ high tail risk
+
+8. conditional factor risk model (like barra)
+return of HF ~ alpha + risk factor + dummy variable (0 if normal, 1 if distress) + error
+- risk factor
+  equity risk/ currency risk/ credit risk/ volatility risk(VIX)
+- risk measure
+  [1] sharpe ratio/ sortino ratio (downside risk)
+  good: managed futures/ equity mkt netural/ global macro/ event-driven
+  not so good: fof/ multi-strategy (diversification effect overvalued)
+  [2] standard deviation
+  good: short-biased/ mkt neutral/ managed future/ fof
+  not so good: event-driven/ relative value
+  [3] drawdown
+  good: global macro/ managed futures/ merger arbitrage/ mkt neutral
+  not so good: LS/ event-driven/ relative value
+  
+9. roles of alternatives
+- capital growth/ income generation/ risk diversification/ safety
+- diversification
+  apprisal value are often used in alternatives, so diversification may be over-estimated
+  
+10. investment opportunity set
+[1] traditional approach
+- by liqudity
+  FI: cash - bond - private equity
+  equity: public - equity HF - private eqioty
+  other: commodity - REIT - private real estate - private real asset
+- by economy/inflation
+  bad/deflation: non-indexed bond (FI)
+  bad/high infaltion: indexed bond/ gold
+  good/moderate inflation: equity and private credit
+  good/high inflation: commodities/ real estate
+- pros
+  easy to interpret
+- cons
+  over-estimation of diversification
+[2] risk-factor approach
+- private equity = public equity
+  private credit = public high-yield bond
+- pros
+  risk-factoe identification/ integrated framework
+- cons
+  use of historical data - time lag
+  
+11. considerations
+[1] risk
+- option-like pattern because of illiquidity and valuation
+  so, we cannot assume normally-distributed return
+- unable to achieve the target weight because of illiquidity
+[2] expected return
+- limited validity of data - smoothing
+[3] vehicles
+- limited partnership - LP + GP
+- SMA (separately managed accounts)
+- open-ended mutual funds
+[4] liqudiity
+- drawdown structure
+  calldown period - distribution period - termination
+[5] expense and fees
+- HF - mgt fee@AUM, incentive fee@each year, high-water, hurdle
+- PE - mgt fee@committed capital, incentive fee@termination
+[6] tax
+[7] in-house programs (build)
+    intermediaries (buy)
+    
+12. asset allocation
+- to avoid normality assumption in alternatives
+  [1] empirically observed returns
+  [2] model a fat-tailed distribution
+- models
+  [1] monte carlo (by risk factors)
+  [2] optimization (mean-variance)
+  [3] risk factor based optimization
+  
+
+
+
+
+
+
+
+  
