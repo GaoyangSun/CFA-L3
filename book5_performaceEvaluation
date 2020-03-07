@@ -46,5 +46,40 @@ performance measurement / performance attribution / performance appraisal
  
  7. benchmarks
  specified in advance/appropriate/measureable/unambigous/reflective of current opinion/accountable/investable
- [1] asset-only
+ [1] absolute return
+     simple but not investable
+ [2] broad mkt index
+     manager's style may deviate from the index style
+ [3] style index (recommended)
+     differing definitions of style
+ [4] factor-model-based 
+     not intuitive and investable
+ [5] return-based 
+     factors are style indexes, so it is investable
+     not work if manager changes style (new data incorporated takes a small portion)
+ [6] manager universe (median)
+     not investable or specified in advance, also subject to survivorship bias
+ [7] custom 
+     expensive and complex to build
+ 
+ 8. benchmarking alternatives
+ [1] liquidity - appraisal and smoothing
+ [2] transparency - self reported
+     prone to survivorship bias and backfill bias
+ [3] leverage 
+ 
+ 9. performance appraisal 
+ [1] sharpe ratio - you assume indifferent upside and downside volatility
+ [2] sortino ratio - measure downside risk
+ [3] treynor ratio - measure systematic risk
+ [4] info ratio - measure tracking error
+ [5] appraisal ratio - Jensen's alpha/residual risk
+     J's alpha = rp - rp_capm
+     error of  - rp ~ alpha + rm + error  (unsystematic risk)
+ [6] capture ratio - measure convexity of return
+     upside capture (UC) = Rp/Rb when Rb>0
+     downside capture (DC) = Rp/Rb when Rb<0
+     capture ratio (CR) = UC/DC
+     CR>1 convex (涨多跌少)
+ [7] max drawdown
  
