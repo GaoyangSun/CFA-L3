@@ -1,0 +1,65 @@
+Reading 7-9
+1. traditional finance v. behavioral finance
+- traditional
+  people are risk-averse, self-interested, utility maximizers (rational)
+  people make decisions with utility theory, revise expectations with Bayes' formula
+  people have access to perfect info, and can process it in an unbiased way
+  price reflect all available and relevant info
+- behavioral
+  people are loss-averse, satisfying, with bounded rationality
+
+2. decision-making process
+[1] normative analysis
+    rational solution - traditional 
+[2] descriptive analysis 
+    real people work - behavioral 
+[3] prescriptive analysis
+    predict results - behavioral
+    
+3. utility theory - traditional
+four axioms of utility
+- completeness 
+  known choices and preferences
+- transitivity
+  consistent rankings
+- independence
+  additive and divisible utilities
+- continuity
+  smooth and unbroken indifference curves
+  
+4. challenges to traditional finance
+- bounded rationality/ difficulty prioritizing short-term goals/ not perfect info
+  not constantly risk-averse (lottery and insurance)
+  Friedman-Savage double-inflection utility function: concave (risk-averse) at sides, convex (risk-seeking) in the middle
+  
+5. prospect theory
+- risk-averse gain, risk-seeking loss (people are loss-aversion)
+- editing process (early phase) + evaluation process (later phase)
+- editing process
+  codification/ combination/ segregation/ cancellation/ simplification/ detection of dominace
+
+6. EMH
+- weak-form
+  mkt info are assumed, technical analysis do not work
+- semi-strong form
+  mkt and fundamental info are assumed, fundamental analysis do not work
+- strong form  
+  all info are assumed, nothing will work
+  
+7. mkt anomalies
+- fundamental - size effect/ value effect
+- tech - moving averages/ support and resistance
+- calendar - January effect
+
+8. four behavioral finance models
+[1] consumption and savings
+- framing (how do you say sth.)
+- self-control (short-term spending)
+- mental accounting (salary and bonus)
+[2] behavioral asset pricing
+discount rate on security = risk-free rate + fundamental risk premium + sentiment premium
+[3] behavioral portfolio theory (BPT)
+construct portfolios in layers by expectations of the performance (goal-based/pyramid/mentail accouting)
+[4] adaptive mkts hypothesis
+success is survival, rather than maximizing utility (because things change)
+
