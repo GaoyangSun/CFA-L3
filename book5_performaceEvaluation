@@ -83,3 +83,19 @@ performance measurement / performance attribution / performance appraisal
      CR>1 convex (涨多跌少)
  [7] max drawdown
  
+10. manager selection process
+[1] manager universe
+    IPS-based universe
+    hiring a bad manager is type I error, rejecting a good manager is type II error
+[2] qualitative analysis
+    - style analysis
+      return-based (RBSA) - regression using historical data
+      holding-based (HBSA) - using current data
+    - due diligence
+      investment philosophy/ investment personnel/ decision-making process/ operational due diligence
+[3] quantitative analysis
+    - performance-based fees
+      symmetrical structure: base + sharing of performance
+      bonus fully exposed to upside: max (base, base + sharing of positive performance)
+      bonus not fully: max (base, base + sharing of postive performance, upper limit)
+      
