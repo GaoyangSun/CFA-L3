@@ -57,3 +57,47 @@ d_V% = d_GDP% + d_S% + d_PE% + d_divdend%
    inverting yield curve because of tightening monetary policy (rising short-term) and fisical policy (decrease long-term)
    [5] recession
    inflation peaks and falls, bond yield falls, stock price may rise in the end
+
+7. monetary policy
+goal - long-run sustainable growth - balance between growth and inflation
+neutral rate - equlibrium int rate = real-growth + inflation
+Taylor rule
+target = (real_neutral rate + inflation) + 
+         0.5*(expected real growth - target real growth) + 
+         0.5*(expected inflation - target inflation)
+         
+8. fisical policy
+tax and government spending
+budget deficit = fisical policy + business cycle
+- on int rate (after the policy has taken effect)
+monetary affects inflation, fisical affects real rate
+loose monetary - high inflation, loose fisical - high real rates
+- on yield curve (during the policy)
+monetary affects short-term yield largely, fisical affects long-term yield mildly
+loose monetary - lower short-term yield, loose fisical - high long-term rate
+
+9. forecast risk and return
+- sample stat
+- shrinkage estimate (weighted between historical var and analyst var)
+- time-series estimate (ARCH/GARCH)
+- multi-factor
+
+- DCF
+- risk premium
+
+10. forecast FI return
+[1] DCF
+may fail to achieve YTM
+sell bond prior to maturity/ changing reinvestment return/ IH > MacDuration (reinvestment risk > price risk, not immunized)
+[2] risk premium
+r = rf + term premium + credit premium + liquidity premium
+- term premium (positively related to duration)
+  inflation uncertainty 
+  recession hedge (demand-driven inflation:good/ supply-driven inflation:bad)
+  supply and demand
+  business cycle
+- credit premium
+  expected default loss
+- liquidity premium
+
+11. forecasst equity return
