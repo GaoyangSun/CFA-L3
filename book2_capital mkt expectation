@@ -89,6 +89,7 @@ loose monetary - lower short-term yield, loose fisical - high long-term rate
 [1] DCF
 may fail to achieve YTM
 sell bond prior to maturity/ changing reinvestment return/ IH > MacDuration (reinvestment risk > price risk, not immunized)
+
 [2] risk premium
 r = rf + term premium + credit premium + liquidity premium
 - term premium (positively related to duration)
@@ -100,4 +101,41 @@ r = rf + term premium + credit premium + liquidity premium
   expected default loss
 - liquidity premium
 
-11. forecasst equity return
+11. forecast equity return
+[1] DCF - Grinold and Kroner 
+originally, r = (D1/P0) + g
+after revision, r = (D1/P0 - d%Shares) + d%Earnings + d%P/E
+income return: dividend + sales (as repurchase)
+earnings growth return: d%Earnings
+repricing return: d%P/E
+
+[2] risk premium - Singer-Terhaar model
+originally, risk premium RP_i = beta(i,m)*RP_mkt
+fully global, RP_(i,glb) = beta(i,glb)*RP_glb
+fully segmented, RP_(i,sgm) = beta(i,sgm)*RP_sgm
+                            = cor(i,sgm)*(std(i)/std(sgm))*RP_sgm
+                            = std(i)*(RP_glb/std(glb))
+combine, RP_i = phi*RP_(i,glb) + (1-phi)*RP_(i,sgm)
+
+12. forecast real estate
+higher quality properties are less cyclical
+[1] DCF
+P0 = NOI1(net operating income)/(r-g)
+cap rate: NOI1/P0  or  r-g
+r = (NOI1/P0) + g = cap rate + NOI growth rate
+in fintie period
+r = cap rate + NOI growth rate - d%cap rate
+(- d%cap rate) - capital gain, as P0 increase if cap rate decrease
+cap rate - positively related to int rate and vacancy
+           inversely related to availability of debt (P0)
+
+[2] risk premium
+r = rf + term premium + credit premium + equity risk premium + liquidity premium
+
+13. forecasting FX
+affected by trade flows/ purchasing power parity/ current account and exchange rate
+capital mobility
+d%S(d,f) = (rd-rf) + (term_d - term_f) + (credit_d - credit_f) + (equity_d - equity_f) + (liquid_d - liquid_f)
+         = (risk-premium defined) int rate_d - int rate_f
+uncovered int rate parity (UIP)
+d%S(d,f) = rf(d) - rf(f)
