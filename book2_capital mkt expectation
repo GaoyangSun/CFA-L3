@@ -79,9 +79,14 @@ loose monetary - lower short-term yield, loose fisical - high long-term rate
 9. forecast risk and return
 - sample stat
 - shrinkage estimate (weighted between historical var and analyst var)
+  same method in de-smoothing
+  Rt = (1-lambda)rt_observed + rt_unobserved
+  var(r) = (1+lambda/1-lambda)*var(R)
 - time-series estimate (ARCH/GARCH)
+  sigma_t = alpha*sigma_t-1 + beta*epsilon(unexpected component) + gamma
 - multi-factor
-
+  forecasting portfolio volatility (Barra risk model)
+  sigma_i^2 = beta(i,m)*beta(i,n)*cor(m,n) (cov mat) + res_i^2
 - DCF
 - risk premium
 
