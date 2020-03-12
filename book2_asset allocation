@@ -42,4 +42,14 @@ criteria: homogeneous (within)/ mutually exclusive/ diversifying/ largely exhaus
   long 10-year Treasuies, short 1-year Treasuries
  
  6. strategic asset allocation
- 
+ - TAA (tactical)
+   short-term deviation
+ - DAA (dynamic)
+   long-term changes due to changes in CME
+   
+ 7. rebalancing
+ - calendar/ percent-range (trigger points or range)
+ - range are affected by (wider range - less likely to rebalance)
+   transanction cost/ risk-aversion/ asset class correlation/ belief in mean-reversion/ liquidity/ volatility/ taxes
+ - effects
+   better diversification/ short volatility
