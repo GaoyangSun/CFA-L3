@@ -1,0 +1,45 @@
+Reading 12 - 14
+
+1. investment governance
+- governance hierarchy
+  investment committee - approve, delegate, oversight, audit
+  investment staff - draft, research, evaluate, create, assess
+  third-party resources - consult
+- governance models
+  
+2. enonmic balance sheet
+- asset
+  domestic equity + PV of expected future income
+- libility
+  sohort-term borrowing + PV of expected future consumption
+- equtiy
+  economic net worth
+  
+3. approaches to asset allocation
+- asset-only
+  for ones without debts
+  risk measure: volatility/tracking error/max drawdown/VaR
+- ALM
+  for most institutional investors
+  risk measure: shortfall risk
+- goal-based
+  for individual
+  risk measure: prob(not achieve goal)
+  
+4. asset classes
+criteria: homogeneous (within)/ mutually exclusive/ diversifying/ largely exhaustive
+
+5. isolate risk factor (pure-factor portfolio)
+- inflation
+  long nominal Treasuries, short inflation-linked bond
+- real int rates
+  inflation-linked bond
+- US volatility
+  VIX future
+- credit spread
+  long high-spread bond, short Treasuries
+- duration
+  long 10-year Treasuies, short 1-year Treasuries
+ 
+ 6. strategic asset allocation
+ 
