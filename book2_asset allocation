@@ -85,3 +85,57 @@ surplus return = (d_asset - d_liability)/asset
 [2] hedging/return-seeking portfolio approach
 hedging covers liability, return-seeking is managed separately
 may require an over-funded status
+
+10. goal-based
+[1] detetmine discount rate
+    time horizon/ required probability of success
+[2] allocate capital to sub-portfolios
+    calculate the lowest initally required capital for each goal
+[3] if have excess capital
+    bring forward the timing or raise the sucess probability of current goals/ get additional goals
+
+11. heuristic approaches
+120 - age% to stocks
+60/40 stock/bond
+Yale model - higher allocations to non-traditional assets (liquidity premium)
+1/N - naive diversification
+
+12. risk budgeting and risk parity
+risk budgeting
+MCTR (marginal contribution to total risk) = beta_i * sigma_p
+excess return to MCTR = (expected return - risk-free rate)/MCTR
+choose the asset with highest ratio
+ACTR (absolute contribution to total risk) = w_i * MCTR = w_i * beta_i * sigma_p
+
+risk parity
+equal ACTR among all asset
+ACTR = w_i * beta_i * sigma_p = (1/n) * sigma_p
+cons: ignores expected return/ no available leverage to increase the return/ look-back bias
+
+13. constraints
+[1] asset size
+- cons of large asset
+  illiquidity/ mkt impact in small-cap/ outside of core investment thesis/ slow down decision making
+- cons of small asset
+  threshold/ lower governance capacity/ lower fees/ hard to diversify
+[2] liquidity
+- people have different liquidity needs
+- liquidity needs can change
+[3] time horizon
+- changing human capital
+- changing character of liabilities
+[4] regulatory
+[5] tax
+- after-tax portfolio optimization
+  less tax on price appreciation than dividend income
+  tax can reduce risk
+  smaller rebalancing range for taxable portfolio
+- tax loss harvesting
+  only realized gains are taxable, realized loss are tax-deductable
+- TA/TDA/TEA
+  higher tax put in TEA/TDA, lower tax put in TA
+  bond put in TDA (coupon), stock put in TA (price appreciation)
+  
+14. SAA v. TAA
+ways to evaluate TAA decisions
+Sharpe ratio or info ratio/ t-stat of difference/ plot risk and return on SAA frontier
