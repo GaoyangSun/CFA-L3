@@ -38,3 +38,42 @@ con: hard to assgin big complex company to one sector
 - risk for active mgt
   reputation risk/ key person risk/ higher portfolio turnover (tax burdens)
   
+7. index
+- rule-based/ transparent/ investable
+- buffering (breakpoint)/ packeting (split between indices)
+- determine the mkt exposure
+  mkt segment/ capitalization/ style
+- construct and maintain
+  weighting: mkt-cap(liquidity)/ price/ equal/ fundamental
+  rebalancing/ reconsitution
+- stock concentration
+  HHI = sum over w_i^2
+  effective no. of stocks = 1/HHI 
+  
+8. vehicles for passive equity
+- pooled investment
+  ETF
+- derivatives based
+  to rebalance the portfolio using stock futures
+  compeletion overlay(adjust beta)/ rebalancing overlay(adjust stock)/ currency overlay
+  cons: basis risk/ position limits
+- separately managed account
+
+9. passive portfolio construction
+- full replication
+  U-shaped tracking error as no. of stocks increase = decreasing tracking error + increasinig trading cost
+- stratified sampling
+  sample by fundamental styles (exclusive and exhaustive)
+- optimization
+  factor-based replication: lowest tracking error
+  tracking error is a trade-off between benefits of larger sample size and increased costs
+- blended approach
+- factor-based semi-active (smart beta)
+  factor: growth-value/ size/ div yield/ momentum/ quality/ volatility
+  alter certain factor exposures
+  return-oriented: div yield, momentum
+  risk-oriented: volatility-weighting, minimum-variance investing
+  diversfication-oriented: equal-weighting, max-diversification weighting
+  
+10. active - bottom up
+
