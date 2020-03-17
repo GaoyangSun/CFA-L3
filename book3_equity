@@ -75,5 +75,74 @@ con: hard to assgin big complex company to one sector
   risk-oriented: volatility-weighting, minimum-variance investing
   diversfication-oriented: equal-weighting, max-diversification weighting
   
-10. active - bottom up
+10. active strategies
+[1] top down - CME/ asset class
+[2] bottom up - fundamental
+- value based
+relative value/ contrarian investing/ income (divdend) investing/ high-quality value
+deep-value (low PE/distressed) investing/ restructuring and distressed debt/ special situations
+- growth based
+GARP (growth at a reasonable price)/ PEG (PE to growth)
+[3] factor-based
+- long/short
+rewarded/unreward factor - q10 - q1
+cons: nonlinear relation cannot be detected/ middel q overlooked/ exposure to other factors
+- factor timing
+equity style rotation
+[4] others
+- activist (minimal shareholder engagement)
+- statistical arbitrage
+- mkt microstructure
+- pairs trading
+- event-driven
 
+11. style classification
+[1] holdings-based
+morningstar style box (size*value)
+cons: style definitions may vary
+[2] return-based
+return of portfolio ~ indices
+cons: extreme styles/ style drfit
+
+12. source of active returns
+rewarded factors / mispricing / idiosyncratic risk
+Ra = sum over (beta_p - beta_b)*factor + alpha + epsilon
+- building blocks of construction
+  factor weighting + alpha skills + sizing positions
+- fundamental law of active mgt
+  E(Ra) = IC * sqrt(BR) * active risk * TC(transfer coef)
+  
+13. active share and risk
+- active risk (tracking error)
+  = sigma_factor + sigma_alpha
+- active share (share deviation)
+  = 1/2 * sum over |wgt_p,i - wgt_b,i|
+- low to high
+  pure indexing / closet indexing / factor-neutral&diversified stock picks / diversified factor bets / 
+  concentrated factor bets / concentrated stock picks
+  
+14. risk budgeting
+- absolute measure
+  var_p = sum over w_i * w_j * cov_i,j
+- relative measure
+  TE_p = sum over (w_i - b_i) * (w_j - b_j) * Rcov_i,j
+  
+15. considerations in equity portfolio
+- leverage
+  R_geometric = R_arithmetic - sigma^2/2
+- AUM / portfolio turnover&investment horizons / mkt impact 
+- slippage
+  time delay/mkt impact
+  empirical studies: slippage higher than explicit/ higher in small-cap/ higher during high mkt volatility
+
+16. what is a well-constructed portfolio
+- can achieve desired risk exposures with fewer positions
+- for similar risk factor exposures, have lower absolute/relative risk/ higher active share
+
+17. long-only v. long-short
+- gross exposure = long + short
+  net exposure = long - short
+- long extension portfolio = long 130 + short 30
+- mkt neutral portfolio (pairs trading)
+- short squeeze
+  stock lender may require higher margin/collateral
