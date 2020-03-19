@@ -56,9 +56,60 @@ Reading 28-32
 4. IPS
 [1] background and investment objectives
     detailed and quantified objectives
-    
 [2] investment parameters
+    risk tolerance and capacity/ time horizon/ asset class preference
+    liquidity preference - short-term gap (inflow - outflow)
 [3] portfolio asset allocation
+    SAA + TAA
 [4] portfolio mgt
+    - discretionary authority (full discretion - trade without approval)
+    - rebalancing (time-based/ threshold-based)
+    - tactical changes
+    - implementation (third-parth money managers/ proprietary investment)
 [5] duties and responsibilities
+    - IPS review (at least annually)
 [6] IPS Appendix
+    - modeled portfolio behavior
+    - capital mkt expectations
+ 
+5. portfolio construction and monitoring
+[1] portfolio construction
+    traditional approach/ goal-based investing approach
+[2] portfolio reporting and review
+    portfolio reporting/ portfolio review
+[3] evaluating the success of an investment program
+    - goal achievement
+    meet long-term objective with an acceptable amount of risk
+    - process consistency
+    good recommendation for third-party manager/ follow the prescribed process for rebalancing/ reduce cost
+    - portfolio performance
+    better than benchmark
+    - definitions of success
+    pre-agreed criteria
+
+6. ethical and compliance consideration
+- fiduciary duty and suitability
+- KYC
+- confidentiality
+- conflicts of interest
+
+7. private client segments
+[1] mass affluent segment (0.25 - 1mil)
+    not customize
+[2] high-net-worth (1 - 50 mil)
+    customized investment mgt, tax planning, wealth transfer issues
+[3] ultra-high-net-worth (>50 mil)
+    multi-generational time horizons, complext tax, estate planing, anything
+[4] robo-advisors (<0.25mil)
+
+8. tax calculation
+[1] simple tax
+- accrual taxation (every year on income)
+  FV = PV*(1 + r - r*t)^n = PV*(1+r*(1-t))^n
+  tax drag = (FV_pt - FV_at)/(FV_pt - I_0)
+  - tax drag > tax rate
+  - tax drag increase as investment horizon increase
+  - tax drag increase as investment return increase
+- deferred capital gain (one-time on gain)
+  FV = (1+r)^n - ((1+r)^n - 1)*t
+- wealth-based
