@@ -1,0 +1,80 @@
+Reading33
+
+1. framework change
+old framework RRTTLLU
+new framework SLLERIA = RRTTLLU + stakeholder + asset allocation
+
+2. common characterstic
+[1] scale
+[2] long-term investment horizon
+    low liquidity needs: pension/ swf/ endowments and foundations
+    adequacy of capital(LDI): bank and insurers
+[3] governance framework
+    board of directors set up investment committe, who writes IPS
+[4] regulatory framework
+[5] principal-agent issues
+
+3. invesment approaches
+[1] Norway model (swf)
+    60% equity + 40% bond
+    passive investments, low tracking error
+[2] Endowment model (yale university endowment)
+    high alternatives exposure, active mgt and outsourcing
+[3] Canada model (pension)
+    high alternatives exposure, avtive mgt and internally managed
+[4] LDI model (bank and insurers)
+    duration-matched, fixed-income exposure. some stocks
+    
+4. pension
+DB
+contract-defined pmts/ employer as major contributor/ third-party makes investment/ employer bears the risk/ pooled mortality risk
+[1] stakeholders
+    plan sponsors (employers)/ plan beneficiaries(employees and retirees)/ investment committee
+    governments/ shareholders
+[2] time horizon
+    - liability
+    to estimate the liability, assumptions include growth rate of salaries/ expected vesting/ mortality
+    funded ratio = fair value of plan assets/ PBO (pv of defined benefit obligation)
+    factors increasing liability: years worked/ salary/ longevity/ additional contributions
+    factors decreasing liability: employee turnover/ expected investment return/ discount rate
+    - investment horizon
+    ratio of active employee and retirees
+[3] liability
+[4] risk
+    - plan funded status 
+    - sponsor financial status and profitability
+    - correlation of profitability and investment
+    - plan features (early retirement/ lump sum distribution)
+    - workforce characteristics (age of workforce/ active v. retired)
+[5] objective
+    - primary objective
+      meet pension liabilities
+      fully funded - return on asset = actuarial discount rate
+      underfunded - return on asset > actuarial discount rate (you have to make higher return to meet deficit/ or make additional contributions)
+    - secondary objective
+      minimize pv of expected cash contributions
+[6] liquidity needs
+    active v. retired/ age of workforce/ funded status/ withdraw when switch jobs
+DC: pmts based on performance/ employee as major contributor/ employee makes investment/ employee bears the risk/ individual mortality risk
+[1] stakeholders
+    plan sponsors (employers)/ plan beneficiaries(employees and retirees)/ board/ governments
+[2] liabilities and investment horizon
+    liabilities = required contribution
+    due to rise to scale and long-term horizon, DC plan may invest in PE or HF
+    life-cycle (target-date) options
+    - participant-switching options
+      switch to more conservative asset allocation as aging
+    - participant/cohort(群体) options
+      offer different portfolio according to different retirement dates
+[3] objective
+    prudently grow assets to support spending needs in retirement
+    can be in-house/ externally  or  passive/ actively
+[4] liqudity
+    age of workforce
+
+
+
+
+
+
+
