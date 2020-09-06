@@ -111,3 +111,67 @@ saving - equities and alternatives
 reserve - lower alternatives due to potentially liquidity needs
 pension - based on accumulation or decumulation
 
+6. endowments
+[1] stakeholders
+students, alumni, university employees
+[2] liabilities and investment horizon
+perpetual horizon
+liabilities - future payouts promised, presented in spending policy, with smoothing payouts
+liabilities factors: fundraising (you may have a lower spending rate when there is incoming donation)
+                     reliance of the university on spending/ capacity of university to issue debt
+Spending rule (usually between 4%~6%)
+spending_t+1 = w*spending_t*(1+inflation) + (1-w)*spending_rate*average_AUM
+w=1 - constant growth rule
+w=0 - (avg) mkt value rule
+[3] liquidity - annual spending - incoming gifts and donations
+[4] external - tax exempt
+[5] risk - high risk tolerance
+[6] objective
+    return = spending rate + inflation(HEPI) + mgt fee
+[7] asset allocation
+    yale endowment model (>50% to alternatives)
+    
+7. private foundations
+types
+commuinity - like endowment
+operating - set up to fund non-profit
+corporate 
+private grant-making - min 5% spending rate + flow through (spend all the donations of that year)
+[1] stakeholders
+    doners, recipients, community, government, board
+[2] liabilities and investment horizon
+    typically perpetutal, there is trend toward limited-life foundations (spending rate + flow through) 
+[3] liquidity
+    near-term liquidity + capital call + margin call
+[4] objective
+    real return - spending + inflation(CPI) + investment expense
+[5] risk
+    lower risk tolerance due to higher liqudity requirements
+[6] external
+    tax-exempt when meet min spending rule
+[7] asset allocation
+    long-term objective beating inflation
+
+8. banks
+[1] stakeholders - shareholders, customers, empolyee
+[2] liabilities and investment horizon
+    demand deposits/ term deposits
+    long-term illiquid assets, short-term liquid liabilities
+[3] liquidity - liquidity mgt is core
+..
+[6] external - reg: capital adequacy, liquidity, leverage   tax: taxable   systematically important financial institutions(SIFIs)
+
+9. insurers
+types: life insurers / property and casualty insurers
+       publicly listed company/ mutual company(相互宝)
+generate a/c - life insurance and annuity policies - LDI
+separate a/c - variable life policies(投资连结险) - mostly in equities
+[1] stakeholders
+[2] liabilities and horizon
+    life insurers - 20-40 yrs
+    P&C insurers - shorter duration and higher uncertainty
+[3] liquidity
+    internal liquidity (cash from operations and investment) and external liquidity (ability to borrow in debt mkt)
+    in times of high interest rates, contracts with historically low-yielding contracts may cash in
+    general a/c = reserve portfolio + surplus portfolio
+
