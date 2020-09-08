@@ -21,7 +21,7 @@ new framework SLLERIA = RRTTLLU + stakeholder + asset allocation
 [2] Endowment model (yale university endowment)
     high alternatives exposure, active mgt and outsourcing
 [3] Canada model (pension)
-    high alternatives exposure, avtive mgt and internally managed
+    high alternatives exposure, active mgt and internally managed
 [4] LDI model (bank and insurers)
     duration-matched, fixed-income exposure. some stocks
     
@@ -174,4 +174,36 @@ separate a/c - variable life policies(投资连结险) - mostly in equities
     internal liquidity (cash from operations and investment) and external liquidity (ability to borrow in debt mkt)
     in times of high interest rates, contracts with historically low-yielding contracts may cash in
     general a/c = reserve portfolio + surplus portfolio
+
+10. bal. sheet mgt
+[1] A = L + E   dA = dL + dE
+    dE/E = dA/E - dL/E = (dA/A)*(A/E) - (dL/L)*(A/E - 1)
+[2] - assume dy - yield on asset, di - yield on liability
+      dE/ E*dy = (dA/ A*dy)*(A/E) - (dL/ L*di)*(di/dy)*(A/E - 1)
+    - duration: dP/P = -D*dy, which measures the sensitivity of the price change of an asset to its yield change
+      so D = -dP/P*dy
+    - DurationE = DurationA*(A/E) - DurationL*(di/dy)*(A/E - 1)
+    - duration of equity ~ degree of leverage, duration of asset and liability, sensitivity of changes in yields of asset and liability
+[3] if you see equity as a portfolio of asset and liability
+    wA = A/E, wL = L/E = 1 - A/E = - (A/E - 1)
+    then the volatility of percent changes in the mkt value of equity
+    sigma2_dE/E = sigma2_dA/A * (A/E)^2 + sigma2_dL/L * (A/E-1)^2 - 2*(A/E)*(A/E - 1)*cor*sigma_dA/A*sigma_dE/E
+    so, to lower the volatilityE, you need to reduce volatility of asset and equity, to increase the cor of asset and liability (ALM)
+
+11. managing liquidity risk
+methods
+[1] liquidity profiling and time-to-cash table
+    threshold: 1 week - 1 quarter - 0.5 year - 1 year
+[2] rebalancing and commitments
+    systematic rebalancing - calendar/percent-range 
+    automatic rebalancing - use liquid public asset to replace illiquid private asset
+[3] stress testing
+    historical/ statistical/ scenario
+[4] derivatives
+illiquidity premium = expected return on illiquid asset - expected return on marketable asset of same characteristic
+
+
+
+
+
 
