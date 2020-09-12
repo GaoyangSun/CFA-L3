@@ -154,3 +154,61 @@ capital gain tax rate =17% if horizon<1 yr, 7% of horizon>1 yr
 realize unrealized loss, to lower tax
 [4] HIFO
 sell the security with highest cost
+
+11. estate planning
+testator -> testment (will) -> beneficiary
+[1] probate - legal process to comfirm the validity of the will
+to avoid the probate
+- joint ownership/ living trusts/ retirement plans/ insurance policy
+[2] ownership right
+- forced heirship rules/ community property rights/ separate property rights
+[3] core capital
+pv of future liabilities of the family (using risk-free rate)
+core capital + surplus = total asset
+[4] monte carlo simulation
+probaility of ruin (hazard rate) - spending is unsustainable
+
+[5] relative after-tax values
+RV = FV_gift/FV_bequest
+A -> B
+- if the gift if tax-free
+  RV = [1 + r_b*(1-t_b)]^n / [1 + r_a*(1-t_a)]^n * (1-t_estate)
+- if the gift is taxable
+  RV = (1-t_gift) * [1 + r_b*(1-t_b)]^n / [1 + r_a*(1-t_a)]^n * (1-t_estate)
+- if the gift is taxable and A pays the tax
+  RV = (1-t_gift + t_gift*t_estate) * [1 + r_b*(1-t_b)]^n / [1 + r_a*(1-t_a)]^n * (1-t_estate)
+  where the t_gift*t_estate is a tax sheild, as you have less asset as estate
+- if B is a charity
+  no gift tax, t_b=0, and tax shield
+  
+[6] estate planning strategies
+- generational skipping
+- spouse exemption
+- valuation discounts (liquidity and minority)
+- trust
+  settlor/grantor -> trustee -> beneficiary
+  revocable - ownership -> settlor  ->  tax on settlor
+  inrevocable - ownership -> beneficiary   ->  tax on beneficiary  ->  protect claim
+  fixed trust -> fixed amount/timing
+  discretionary trust -> decided by trustee
+  spendthrift trust -> to unable or unwilling to manage the asset
+- life insurance
+  lower tax/ beneficiary could be a trust
+
+[7] tax jurisdiction
+- source jurisdiction/ residence jurisdiciton
+- residence-source conflict
+  principle: source first, residence provides tax benefit
+  - credit method
+  max(T_source, T_residence)
+  - exemption method
+  T_source
+  - deduction method
+  T_source + (1 - T_source)*T_residence
+
+
+
+
+
+
+
