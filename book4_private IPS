@@ -105,11 +105,52 @@ Reading 28-32
 8. tax calculation
 [1] simple tax
 - accrual taxation (every year on income)
-  FV = PV*(1 + r - r*t)^n = PV*(1+r*(1-t))^n
-  tax drag = (FV_pt - FV_at)/(FV_pt - I_0)
-  - tax drag > tax rate
+  FV = (1 + r - r*t)^n = (1+r*(1-t))^n
+  tax drag = (FV_pt - FV_at)/(FV_pt - I_0) - reduction in return due to tax on capital gain
+  - tax drag > tax rate  (compounded tax)
   - tax drag increase as investment horizon increase
   - tax drag increase as investment return increase
 - deferred capital gain (one-time on gain)
   FV = (1+r)^n - ((1+r)^n - 1)*t
-- wealth-based
+     = (1+r)^n*(1-t) + t
+  tax drag = ((1+r)^n - 1)*t
+  - tax drag = tax rate
+  when you bought sth from past, and it cost B instead of 1
+  FV = (1+r)^n - ((1+r)^n - 1)*t - (1-B)*t
+     = (1+r)^n*(1-t) + B*t
+- wealth-based (every year on wealth)
+  FV = [(1+r)(1-t)]^n
+  - tax drag > tax rate
+  - tax drag increase as investment horizion increase
+  - tax drag$ increase, tax drag% decrease as investment return increase
+[2] blended tax
+return on a portfolio can be divided into: interest + dividend + realized capital gain(RCG) + unrealized capital gain(UCG)
+UCG of which can be deferred, int + div + rcg + ucg = 100% (total return)
+
+return after realized tax R_art = r*(1 - int*t_int - div*t_div - rcg*t_cg)
+effective capital gain tax rate on ucg t_ecg * [1- int*t_int - div*t_div - rcg*t_cg] = t_cg * ucg
+FV = (1+r_art)^n - ((1+r_art)^n-1)*t_ecg - (1-B)*t_cg
+
+[3] accrual equivlent tax rate (t_ae) and return (r_ae)
+r_ae = r_pt*(1-t_ae)
+
+9. types of investment accounts
+[1] taxable account
+    after-(ordinary) tax in, taxed during trading
+    FV = (1+r*(1-t))^n
+[2] tax-deferred account
+    before-(ordinary) tax in, taxed @ withdraw
+    FV = (1+r)^n * (1 - t_withdrawn)
+[3] tax-exempt account
+    after-(ordinary) tax in, no tax during or withdraw
+    FV = (1+r)^n
+    
+10. tax alpha
+[1] tax location
+put equity in taxable (stock's capital gain are inherently tax-deferred), put bond in tax-deferred (int happend every year)
+[2] time period mgt
+capital gain tax rate =17% if horizon<1 yr, 7% of horizon>1 yr
+[3] tax loss harvesting
+realize unrealized loss, to lower tax
+[4] HIFO
+sell the security with highest cost
