@@ -206,9 +206,41 @@ A -> B
   - deduction method
   T_source + (1 - T_source)*T_residence
 
-
-
-
-
-
-
+12. concentrated single-asset position
+- mostly public stock, private equity, and real estate
+[1] objectives
+- risk reduction/ increase liquidity/ maximize after-tax return
+[2] constraints
+- mandated to hold shares/ voting control/ retain growth potential/ illiquid/ big immediate tax/ legal/ margin lending rules
+[3] psy bias
+- cognitive: conservatism/ confirmation/ illusion of control/ anchoring and adjustment/ availability
+- emotional: overconfidence and familiarity/ status quo/ naive extrapolation of past returns/ endowment effect/ loyalty effects
+[4] estate tax freezing (transfer wealth while not losing control)
+- recapitalization - split shares into voting preferred shares(hold) + non-voting common shares(transfer)
+[5] techniques for public stocks
+- outright sales
+- monetization strategies (stock lending to produce liquidity)
+  hedge to increase load-to-value ratio
+  short sale/ total return equity swap/ short forward/ long put, short call
+- hedging 
+  protective puts/ a pair of puts/ knock-out put/ collar/ prepaid variable forwards (PVF) = short forward + loan
+- yield enhancement
+  long stock + short call (covered calls)
+- tax-optimization
+  index tracking with active tax mgt (take loan to buy index)
+  completeness portfolio (long low cor. stock)
+- cross hedge
+  short a security or a basket of securities with high cor.
+  short a borad or targeted index
+  long put
+- exchange fund
+[6] techniques for private equity
+- sell to strategic buyers/ PE/ mgt/ family member/ divestiture
+- recapitalization - staged exit
+  pro: provide liquidity/ lower risk/ retain incentives
+  con: lose control/ 
+[7] techniques for real estate
+- mortgage financing
+- charitably inclined
+- sale and leaseback
+  
