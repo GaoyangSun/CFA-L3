@@ -244,3 +244,36 @@ A -> B
 - charitably inclined
 - sale and leaseback
   
+13. risk mgt for individuals
+[1] net worth/wealth
+    net worth = assets - liability
+    net wealth (enonomic net worth) = net worth + human capital (pv of wages) + pv of pension (unvested) - pv of consumption - pv of bequest
+[2] implementation
+    high freq, high severity -> risk avoidance
+    high freq, low severity -> risk reduction
+    low freq, high severity -> risk transfer (insurance)
+    low freq, low severity -> risk retention
+[3] risk exposures
+    earnings risk (insure with disability insurance)
+    premature death risk (insure with life insurance)
+    longevity risk (insure with annuities)
+    property risk (insure with property insurance)
+    liability risk - with third party (insure with liability insurance)
+    health risk (insure with health insurance)
+[4] insurance
+    types
+    - life
+      death: term/whole, participating/non-participating (with/without dividend)
+      annuity: immediate/deferred, fixed/variable
+      univerisal: insurance/investment accounts
+    - non-life
+    elements
+    policy owner -> insured -> beneficiary
+    elimination/waiting period - 180 days
+    non-forfeiture clause -> cash value -> premium - net premium (f(coverage, mortality risk))
+    guaranteed insurability -> flat premium for life
+    gross premium = net premium + expense + profit + cash value
+[5] annuities
+    inflation concerns - all to owner
+    payout method - joint life, period-certain annuity (fixed x years), life annuity with period certrain (at least x years), life annuity with refund
+    annuity benefit taxation 
