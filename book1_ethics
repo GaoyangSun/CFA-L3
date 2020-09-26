@@ -178,8 +178,35 @@ valuation pripity -> mkt price/ quoted price/ estimated price with actual input/
   portfolios below minimum asset level must not be included in a composite
   terminated portfolio must be included up to the last full measurement period
 [4] calculation
-
+- >2011, valuation -> fair value
+- disclose policies for valuation
+- accural accounting must be used for fixed-income securities or others that earn interest
+- >2011, disclose if different valuation methods applied within same composite
+- external cash flow
+  time-weighted return geometrically linked
+  > 2000, calculate returns at least monthly
+  original dietz -> assume cash flow happens at mid-term
+  return = (emv - bmv - cf)/bmv + 0.5*cf
+  > 2005, adjust for daily-weighted external cash flow
+  modified dietz -> daily-weighted cf
+  return = (emv - bmv - cf)/bmv + cf*(periods afterwards/whole period)
+  if cf is outflow, turn cf into -cf 
+  > 2010, calculate returns on the date of all large cash flows
+  twrr -> split period into samller period on large cash flow
+- composite (asset-weighting)
+  >2010, monthly
+- fees -> actual/conservative, no estimated trading expense
+  disclose percentage of bundled fees and non-fee-paying portfolios
 [5] presentation and disclosure
+
+
+
+
+
+
+
+
+
 
 
 
