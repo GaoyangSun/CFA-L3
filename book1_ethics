@@ -198,8 +198,20 @@ valuation pripity -> mkt price/ quoted price/ estimated price with actual input/
 - fees -> actual/conservative, no estimated trading expense
   disclose percentage of bundled fees and non-fee-paying portfolios
 [5] presentation and disclosure
-
-
+- disclose if leverage,derivatives and short positions if use is material
+- returns for periods of less than 1 year must not be annualized
+- if performance of past firm or affiliation must be linked, 
+  then decision makers/ decision-making process should be the same, and should habe supporting records
+- internal dispersion -> 3 year annualized ex-post standard deviation of composite and benchmark
+- disclose if change the benchmark:date, desciption, why -> could be retroactively if the benchmark is wrongly chosen in the first place
+- verification -> to assess whether the firm complies with GIPS 
+  independent 3-rd party/ verifying party does not have to comply with GIPS/ calculation and presentation of composite (sampling)/ not ensure accuracy/ report
+- examination -> to assess the accuracy of the composite / after verification
+[6] advertisement
+- no performance -> definition of the firm/ obtain a compliant presentation/ statement
+- with performance -> above + composite description + composite total returns
+  return: period-to-date composite return + 1,3,5 annualized composite return 
+[7] real estate
 
 
 
