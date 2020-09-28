@@ -212,7 +212,21 @@ valuation pripity -> mkt price/ quoted price/ estimated price with actual input/
 - with performance -> above + composite description + composite total returns
   return: period-to-date composite return + 1,3,5 annualized composite return 
 [7] real estate
-
+> 2011, fair value
+> 2008, valued at least quarterly
+- external valuation -> >2012, at least per year
+> 2011, separate income returns and capital gains, make adjustments to equal the two to total return
+- disclose
+  gross-of-fees or net-of-fees
+  internal dispersion is not required if composite contains <=5
+  percentage of composite under external evaluation
+- RE close-end fund
+  SI-IRR -> since inception internal rates of return, must use quarterly cash flow at least
+  vintage year -> the year the fund was initiated
+  PIC = paid-in capital / committed capital
+  DPI = distribution / paid-in capital
+  RVPI = residual value(total value net of distribution) / paid-in capital
+  TVPI = total value / paid-in capital
 
 
 
