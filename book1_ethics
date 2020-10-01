@@ -65,12 +65,14 @@ guidence
 - info-based
 - transaction-based
   okay to trade for tax purpose, or to meet minimal trading volume per agreements with futures exchange
+- actions like buy and sell at the same time in a small volume mkt (e.g. emerging)
+          or use limit order in both buy and sell side are considered manipulation
   
 6. duty to clients
 [1] loyalty, prudence and care
 - fiduciary duty
 - prudent man rule -> higher standard than myself
-- soft dollar(commissions) -> commission to buy research services
+- soft dollar(commissions) -> commission to buy research services -> only be used to benefit client
 - directed brokerage -> seek best execution > best price
 - proxy voting policies -> must have voting policies and disclose, may not have to vote due to cost-benefit
 [2] fair dealing
@@ -99,7 +101,8 @@ guidence
   model and reports -> consent from employers, with record or supplement data
   non-compete agreement
 - employment -> include part-time, writing for journals  
-[2] additional compensation arrangements
+[2] additional compensation arrangements 
+    -> when you are offered it, you must disclose to employers and get written consent. no need to disclose to clients
 [3] responsibility of supervisors
 - beforehand -> compliance  procedure
 - afterhand -> initiate investigation/ place monitor
