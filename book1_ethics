@@ -232,12 +232,24 @@ valuation pripity -> mkt price/ quoted price/ estimated price with actual input/
   TVPI = total value / paid-in capital
 
 
+Notes:
+0. one mistake in the first place does not lead to another
 1. all discretionary and fee-paying account must be in a composite. non-discretionary account cannot be in a composite.
    accounts assgined to sub-advisor can be in a composite only if the manager has the selection power over investment
-
 2. sponsor-specific report can only be presented to sponsor
-
 3. order of preference: mkt price/ quoted price in active mkt/ inactive mkt/ calculation using actual input/ assumed input
+4. info with no specifics can be considered non material
+5. "I believe" is an opinion and can be put in a report
+6. actions on all client could arise suitability issues
+7. rival's report on the same issue is important, therefore under due diligence
+8. big, competent and diligent companies' report can be used without verification
+9. client's order supercedes other part of the Code
+10. no solicitation of clients prior to leaving
+11. responsibility of implementation and authority of enforcement cannot be delegated from compliance officer
+12. arrangement to increase trading volume is ok, as long as the purpose is not to deceive investor and is disclosed
+13. market-value weighted return is ok, as long as it is disclosed
+14. "the investment will provide 15% return in the next year" may not be "opinion as fact", may be "invalid guarantee"
+15. keep private clients needs written consent from both the employer, and the client
 
 
 
