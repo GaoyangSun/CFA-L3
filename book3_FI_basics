@@ -224,5 +224,11 @@ pros: diversified / modest convexity / liqudity mgt
 cons: hard to build
 
 
-
-
+Notes
+1. strategies to manage taxable account
+   - realize capital losses to offset capital gains
+   - extending holding periods to realized long-term capital gains
+   - consider differentials in income and gain tax
+2. managing liability from lowest risk to highest risk
+   cahs flow matching -> horizon matching -> immunization -> contingent immunization
+3. convexity (涨多跌少) -> dispersion -> barbell -> putable
