@@ -160,3 +160,10 @@ risks (1) int rate measurement and mgt
   more liquid/ diversification
 - CDO (debt)
   senior/mezz/junior values change with correlation in default
+
+Notes
+1. short-term rates always change more than long-term rates (assume long-term remains) 
+   -> short-term changes > 2*intermediate changes, however, short-term changes does not matter as its duration = almost 0
+   so, when yield curve flattens (short-term rise) -> intermediate yields go up -> bullet price go down -> barbell outperforms bullet
+       when yield curve sharpens (short-term down) -> intermediate yields go down -> bullet price go up -> bullet outperforms barbell
+2. more curveture -> short-term and long-term down, mid-term up -> barbell outperforms bullet
