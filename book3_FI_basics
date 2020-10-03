@@ -6,7 +6,7 @@ pv-weighted average repay period
 [2] modified duration
 1% change in yield - ? % change in price,  (d_p/p)/d_y
 [3] effective duration
-ex post facto, (pv_ + pv+)/(2*pv0*d_curve)
+ex post facto, (pv_ + pv+)/(2*pv0*(r+ - r_))
 [4] dollar duration
 1 unit change in yield - ? dollar change in price, d_p/d_y
 [5] dv01
