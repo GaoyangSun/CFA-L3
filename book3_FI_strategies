@@ -113,8 +113,9 @@ benchmark spread = yield on a credit security - yield on a benchmark bond with s
 - G-spread (government bond as benchmark)
   same maturity
 - I-spread (swap rate as benchmark)
-- Z-spread = spot_c - spot_t
-- OAS (option-adjusted spread)
+- Z-spread (like IRR)
+- OAS (option-adjusted spread) 
+  When a portfolio includes bonds with and without embedded options, market value weighted average OAS is the best measure of credit exposure
 
 [4] excess return
 - holding-period excess return
@@ -167,3 +168,6 @@ Notes
    so, when yield curve flattens (short-term rise) -> intermediate yields go up -> bullet price go down -> barbell outperforms bullet
        when yield curve sharpens (short-term down) -> intermediate yields go down -> bullet price go up -> bullet outperforms barbell
 2. more curveture -> short-term and long-term down, mid-term up -> barbell outperforms bullet
+3. module 20.5 -> If implied forward rates occur, all bonds will earn the same return over the forward period being analyzed
+4. Expected return = yield income + rolldown return(natural price change assuming no change in yield curve) + E(change in price based on yield view)
+5. a 10-year swap to pay the U.S. fixed rate is economically equivalent to shorting (or borrowing) at the 10-year U.S. rate
