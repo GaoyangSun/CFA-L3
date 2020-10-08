@@ -41,12 +41,12 @@ by leverage: short bias < long/short < equity mkt neutral
     yield curve trade - long/short @ different points on yield curve, to bet on curve flattening or steepening
     carry trade - long high yield and short low yield, e.g. on/off-the-run
 [2] convertible bond arbitrage
-    long convertible bond, short stocks
+    long convertible bond, short stocks - convertible bond goes more like stock than bond
     
 5. opportunistic
-[1] global macro 
-top-down 
-[2] managed futures
+[1] global macro -> discretionary
+top-down, bet on macro things like exchange rate, central bank policy
+[2] managed futures -> systematic
 time-series momentum /cross-sectional momentum
 - both have high leverage/volatility/liquidity/ right-tailed return/ low correlation with mkt
 
@@ -155,5 +155,14 @@ do stress-test
 IRR - affected by the timing of CFs
 MOIC(multiple on invested capital) - (NAV + distribution)/total invested capital
 
-
-  
+Note:
+1. long bias means net long position overall
+2. Assets that are not subject to a fund’s redemption terms are said to be held in a side pocket
+   A gate is a maximum amount an investor may redeem at one time
+   A lock-up is a restriction on redemptions during a period of time
+3. asset valuations for many alternative investments are based on appraisals, returns data are likely to be artificially smoothed and are often stale
+   If serial correlation is present, statistical techniques exist that can be used to unsmooth the data
+   relatively short history of alternative investments, which may result in small-sample and time-period biases
+   One method for modeling a distribution with fat tails (positive excess kurtosis) is to define risk and return properties for two or more distinct market environments, 
+   for example, a normal period and a high-volatility period. Returns for each of these can be described with a normal distribution with its own assumed mean and variance, 
+   Combining the distributions, using an assumed probability of each environment occurring, results in a non-normal distribution.
