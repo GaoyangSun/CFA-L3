@@ -161,10 +161,17 @@ Note:
 4. risk premium RP_glb = beta(i, glb)*RP_glb
    (set cor(i,m)=0, you get seg)  RP_seg = (std(i)/std(glb))*RP_glb
    RP_i = phi*RP_(i,glb) + (1-phi)*RP_(i,sgm)
-
-   
-   
-   
+5. Mac D. = modified D. * (1+YTM)
+   when investment horizon>Mac D. -> reinvestment yield > fall in bond price -> a rise in bond yields will result in a return higher than YTM
+6. for emerging mkt, signs of potential trouble
+   deficit/GDP > 4%, debt/GDP > 70%, foreign debt/GDP > 50%
+   real growth rate < 4%, current a/c deficit > 4%, foreign debt / current a/c > 200%, foreign exchange reserve/short-term debt < 100%
+7. when estimating the risk premiums using equilibrium models
+   (1) remove the impact of smoothing from the data (2) adjust for illiquidity using a liquidity premium
+8. when sample size of sample VCV matrix > number of asset, you can do it. But to be proper, you need at least 10*number of asset
+   best practice: use shrinkage estimation of the weighted averages of the sample and factor-based VCV matrices
+9. The downward sloping yield curve indicates that the economy is likely to contract in the future
+   In recessions, bonds outperform stocks because inflation and interest rates decrease and economic growth is slow
    
    
    
