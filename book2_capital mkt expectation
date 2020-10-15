@@ -66,9 +66,9 @@ target = (real_neutral rate + inflation) +
          0.5*(expected real growth - target real growth) + 
          0.5*(expected inflation - target inflation)
          
-8. fisical policy
+8. fiscal policy
 tax and government spending
-budget deficit = fisical policy + business cycle
+budget deficit = fiscal policy + business cycle
 - on int rate (after the policy has taken effect)
 monetary affects inflation, fisical affects real rate
 loose monetary - high inflation, loose fisical - high real rates
@@ -144,3 +144,27 @@ d%S(d,f) = (rd-rf) + (term_d - term_f) + (credit_d - credit_f) + (equity_d - equ
          = (risk-premium defined) int rate_d - int rate_f
 uncovered int rate parity (UIP)
 d%S(d,f) = rf(d) - rf(f)
+
+Note:
+1. Y = A * K^alpha * L^beta (alpha + beta = 1)
+   (Y/L) = A * (K/L)^alpha
+   -> d(Y/L)/(Y/L) = dA/A + alpha * d(K/L)/(K/L)
+   Y = (Y/L) * L
+   -> dY/Y = d(Y/L)/(Y/L) + dL/L
+   -> dY/Y = dA/A + dL/L + alpha * d(K/L)/(K/L)
+2. monetary policy -> inflation / big impact on short-term rate
+   fiscal policy -> real int rate/ small impact on long-term rate
+   restrictive monetary policy + restrictive fiscal policy -> higher short-term + lower long-term -> flat
+3. in business cycle, leading order: stock -> economy -> int rate, bond
+   initial recovery: low or falling int rate, bond yields bottom out
+   early expansion: rising int rate, stable or rising bond yields
+4. risk premium RP_glb = beta(i, glb)*RP_glb
+   (set cor(i,m)=0, you get seg)  RP_seg = (std(i)/std(glb))*RP_glb
+   RP_i = phi*RP_(i,glb) + (1-phi)*RP_(i,sgm)
+
+   
+   
+   
+   
+   
+   
