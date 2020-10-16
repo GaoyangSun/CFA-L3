@@ -62,9 +62,11 @@ Reading 34
     - scheduled POV (percent of volume) 
       pro: can automatically take advantage of increased liqudity
       con: higher trading cost/ may not complete
-    - scheduled VWAP (based on yesterday's trading volume distribution by hour)
+    - scheduled VWAP 
+      time_slicing: based on estimated trading volume distribution by hour
+      u-shape (high volume in open and close)
     - scheduled TWAP (equal-weighted time schedule)
-      pro: time-slicing schedule
+      pro: time-slicing schedule: equal volume
       con: not take advantage of liqudity condition
     - liquidity seeking
       trade faster @ favorable price
@@ -72,7 +74,7 @@ Reading 34
       trade close to latest price, large amount at first
     - dark pools
     - smart order routers (SORs)
-      highest probability of executing/best mkt price
+      highest probability of executing/best mkt price / small trade
 [2] profit-seeking algo- to get alpha
 
 7. comparison of mkts
@@ -91,14 +93,14 @@ large urgent - dealer (RFQ), large non-urgent - broker
 samll - direct mkt access (DMA)
 
 8. trade cost measurement
-implmentation shortfall IS = paper return - actual return
+implmentation shortfall IS = paper return(relative to close) - actual return
 both paper and actual return are -1+close/price_t
 
 IS = execution cost + opportunity cost + fees
 execution cost = (exec price - decision price)*exec volume
 opportunity cost = (close - decision price)*(decision volume - exec volume)
 execution cost = delay cost + trading cost 
-
+               = (arrival - decision) + (exec - arrival)
 9. trade evaluation
 - cost in dollar per share
   (exec price - ref price) * side
@@ -112,6 +114,7 @@ execution cost = delay cost + trading cost
 - mkt-adjusted cost
   to separate the trading cost due to mkt movement
   mkt-adjusted cost(bps) = arrival cost - beta * index cost
+  arrival cost = (exec - arrival)/arrival * side * 10000bps
   index cost = (index vwap - index arrival price)/index arrival price * side * 10000bps
 
 - added value
