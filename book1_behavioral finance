@@ -64,20 +64,20 @@ construct portfolios in layers by expectations of the performance (goal-based/py
 success is survival, rather than maximizing utility (because things change)
 
 9. cognitive errors
-[1] belief perservance
+[1] belief perservance (RICCH)
 - conservatism bias (not consider new info)
 - confirmation bias (ignore contradicting info)
 - representativeness bias (judge new info using past experience/ base rate neglect + sample size neglect)
 - illusion of control
 - hindsight bias
 
-[2] info-processing biases
+[2] info-processing biases (FAMA)
 - anchoring and adjustment
 - mental accounting bias
 - framing bias
 - availability bias (estimate the probability based on availability)
 
-10. emotional biases (harder to correct)
+10. emotional biases (harder to correct) (LOSSER)
 - loss aversion bias
 - overconfidence bias 
   illusion of knowledge = prediction overconfidence + certainty overconfidence
