@@ -99,3 +99,10 @@ performance measurement / performance attribution / performance appraisal
       bonus fully exposed to upside: max (base, base + sharing of positive performance)
       bonus not fully: max (base, base + sharing of postive performance, upper limit)
       
+Note:
+1. Performance appraisal = performance measurement + performance attribution 
+   -> determines whether the performance was affected primarily by investment decisions, by the overall market, or by chance
+2. return = M(mkt) + S(style alpha) + A(alpha)
+   style alpha = benchmark - mkt
+   alpha = portfolio return - benchmark
+3. capture ratio = Rp/Rb (when Rb>0) / Rp/Rb (when Rb<0)
