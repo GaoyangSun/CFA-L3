@@ -126,3 +126,11 @@ momentum effect
 herding (herd of sheep)
 trend-chasing effect (regret)
 halo effect (good company = good investment?)
+
+
+Note:
+1. E(Utility) = sum over prob_i * subjective prob factor_i * Utility_i
+2. bounded rationality(satisficing)
+   -> investors attempt to make the most rational decision possible based on an amount of information they deem satisfactory
+
+
