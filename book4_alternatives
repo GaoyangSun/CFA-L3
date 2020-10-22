@@ -87,7 +87,7 @@ return of HF ~ alpha + risk factor + dummy variable (0 if normal, 1 if distress)
 [1] traditional approach
 - by liqudity
   FI: cash - bond - private equity
-  equity: public - equity HF - private eqioty
+  equity: public - equity HF - private equity
   other: commodity - REIT - private real estate - private real asset
 - by economy/inflation
   bad/deflation: non-indexed bond (FI)
@@ -102,7 +102,7 @@ return of HF ~ alpha + risk factor + dummy variable (0 if normal, 1 if distress)
 - private equity = public equity
   private credit = public high-yield bond
 - pros
-  risk-factoe identification/ integrated framework
+  risk-factor identification/ integrated framework
 - cons
   use of historical data - time lag
   
@@ -166,3 +166,4 @@ Note:
    One method for modeling a distribution with fat tails (positive excess kurtosis) is to define risk and return properties for two or more distinct market environments, 
    for example, a normal period and a high-volatility period. Returns for each of these can be described with a normal distribution with its own assumed mean and variance, 
    Combining the distributions, using an assumed probability of each environment occurring, results in a non-normal distribution.
+4. to achieve a target allocation to alternative investments, an investor needs to account for the expected growth rate of the portfolio
