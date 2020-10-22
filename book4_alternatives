@@ -167,3 +167,5 @@ Note:
    for example, a normal period and a high-volatility period. Returns for each of these can be described with a normal distribution with its own assumed mean and variance, 
    Combining the distributions, using an assumed probability of each environment occurring, results in a non-normal distribution.
 4. to achieve a target allocation to alternative investments, an investor needs to account for the expected growth rate of the portfolio
+5. Because some alternative investments have relatively short histories of returns data, 
+   use of historical data (even unsmoothed data) alone may introduce time-period and small-sample biases
