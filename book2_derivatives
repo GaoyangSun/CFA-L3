@@ -107,7 +107,11 @@ implied volatility ~ X
 - Equity/bond transform 
   stock - (decrease beta) - cash - (add duration) - bond
 
-
+Note:
+1. The more ITM is an option, the higher is its (absolute) delta (closer to 1)
+   The more OTM is an option, the lower is its (absolute) delta (closer to 0)
+2. for yield-enhancement purpose, do not take adverse position, and use OTM option
+3. a short put is said to have a positive delta
 
 
 
