@@ -65,7 +65,12 @@ VIX return negatively correlates with equity return
   (F - S)/S = (i_P - i_B)/(1 + i_B) = i_P - i_B
   uncovered int rate parity (UIRP)
   
-  
+Note:
+1. manager’s market views -> TAA
+  correlation between asset and currency returns / investor’s time horizon, risk aversion, and liquidity needs -> SAA
+2. EUR/KRW 0.00067/0.00068,  forward points –1.2/–1.1
+   to short, 0.00068 - 1.1/100,000 (by the quote of 5-digit) -> 0.000669
+3. R_dc = (1+R_fc) * (1+R_ret) - 1  -> do not use R_fc + R_ret
   
   
   
