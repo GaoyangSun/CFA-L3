@@ -71,8 +71,8 @@ Note:
 2. EUR/KRW 0.00067/0.00068,  forward points –1.2/–1.1
    to short, 0.00068 - 1.1/100,000 (by the quote of 5-digit) -> 0.000669
 3. R_dc = (1+R_fc) * (1+R_ret) - 1  -> do not use R_fc + R_ret
-  
-  
+4. Currencies with higher relative interest rates tend to attract capital and appreciate in value
+   Note that a common misconception is that the forward currency exchange rate is a valid predictor of what will happen to the value of a currency
   
   
   
