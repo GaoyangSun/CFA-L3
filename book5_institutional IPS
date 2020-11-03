@@ -202,7 +202,9 @@ methods
 [4] derivatives
 illiquidity premium = expected return on illiquid asset - expected return on marketable asset of same characteristic
 
-
+Note:
+Despite some smaller asset classes or strategies to be inaccessible due to capacity issues for institutional investors
+generally, the larger scale of institutional clients opens up more asset classes (e.g., private equity and real estate) that are not generally available to individual investors
 
 
 
