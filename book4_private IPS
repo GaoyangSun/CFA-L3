@@ -304,3 +304,6 @@ Note:
 20. to avoid probate -> joint ownership/ trust/ life insurance
     will/testment does not avoid probate
 21. wealth tax -> accumlated each year, t_wealth * cost basis * T_year
+               -> paid each year, (1+r)^n - [(1+r)(1-t_wealth)]^n
+22. R_ae(accural equivlent) = (FV/PV)^(1/n) - 1
+    T_ae = 1 - R_ae/R_pt
