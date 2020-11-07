@@ -299,3 +299,5 @@ Note:
 15. investment constraints for private clients -> time horizon, portfolio scale (or size), and tax planning. Does not include risk tolerance
 16. vested pension value -> traditional BS  unvested pension value -> economic BS
 17. HC = f(prob(survibal), wage growth rate, rf + HC risk premium)
+18. life insurance -> mortality risk (loss of HC)  /   annuities -> longevity risk
+19. irrevocable trust can not only protect claims to settlor, but also to beneficiary to some extent
