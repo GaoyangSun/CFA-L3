@@ -290,3 +290,10 @@ Note:
 8. short sale against the box -> borrowing and shorting the company stock
 9. exchange fund -> exchange concentrated share with others who also own concentrated shares
 10. prepaid variable forward (PVFs) -> like collar -> own 1000 shares @ 50, lend @ X = 45, if S_t<50, deliver, if S_t>50, deliver less shares
+11. level premium -> same premium for each year, annual premium -> different premium for each year.  
+    Usually level premium charges higher, as the insurance company bears more risk
+12. Net payment cost index -> the individual dies at the end of the horizon and cash value is not considered
+    Net surrender cost index -> the individual terminates the policy (insurance ceases) at the end of the horizon and the cash value is received
+13. need for life insurance -> highest human capital (career development)
+14. motality table -> past experience and future projections
+15. investment constraints for private clients -> time horizon, portfolio scale (or size), and tax planning. Does not include risk tolerance
