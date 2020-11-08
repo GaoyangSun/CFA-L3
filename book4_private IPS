@@ -287,7 +287,7 @@ Note:
 5. tax consideration, in the favor of passive investors -> active investors -> traders
 6. core capital -> use MCS/ disconut future real needs @ real rf/ discount future nominal needs @ nominal rf
 7. charitable gift of appreciated securitie -> avoid gift transfer taxes + take an income tax deduction 
-8. short sale against the box -> borrowing and shorting the company stock
+8. short sale against the box -> shorting the company stock that you own
 9. exchange fund -> exchange concentrated share with others who also own concentrated shares
 10. prepaid variable forward (PVFs) -> like collar -> own 1000 shares @ 50, lend @ X = 45, if S_t<50, deliver, if S_t>50, deliver less shares
 11. level premium -> same premium for each year, annual premium -> different premium for each year.  
@@ -307,3 +307,15 @@ Note:
                -> paid each year, (1+r)^n - [(1+r)(1-t_wealth)]^n
 22. R_ae(accural equivlent) = (FV/PV)^(1/n) - 1
     T_ae = 1 - R_ae/R_pt
+23. primary capital = personal (residence, CDs, cash) + mkt (equity and bond). secondary = aspirational (concentraded positions)
+24. sale and lease back with rent payable immediately -> price - (price - cost)*T_cg - rent + rent * T_income
+25. mismatch in character -> tax mismatch, e.g. on collars
+    premium received -> income, premium paid -> later as deduction when realizing capital gains
+26. flat and heavy tax regime -> flat -> on salary,  heavy -> on dividend and capital gains.  so int-paying asset is better
+27. MVO can consider taxable and tax-exempt together, R_tax = R_exp*(1-t) -> sigma_tax = sigma_exp*(1-t)
+28. death benefit are tax-exempt in most countries
+29. probaility of ruin -> spend all money
+30. consider wage growth rate and discount rate together, adjusted discount rate = (1+discount rate)/(1+growth rate) - 1
+31. to calculate insurance needs
+    -> 1. needs method -> total expense discounted - current coverage
+    -> 2. human life method -> (future earnings - expenses) discounted - current coverage
