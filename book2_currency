@@ -73,8 +73,12 @@ Note:
 3. R_dc = (1+R_fc) * (1+R_ret) - 1  -> do not use R_fc + R_ret
 4. Currencies with higher relative interest rates tend to attract capital and appreciate in value
    Note that a common misconception is that the forward currency exchange rate is a valid predictor of what will happen to the value of a currency
-  
-  
-  
+5. gamma -> d_delta/d_S -> peaks @ ATM
+6. a u.s. investor with euro stock
+   to get rf_euro -> short euro futures
+   to get tf_usd -> short euro futures and short euro forward
+7. cross hedge -> underlying does not match
+8. min variance hedge ratio -> euro stock return in terms of USD ~ b0 + b1*spot rate + epsilon
+   where b1 -> MVHR -> cov(y,x)/var_y   -> riskier than one-on-one hedge as it is based on historical data
   
 
