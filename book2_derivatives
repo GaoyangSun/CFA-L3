@@ -123,4 +123,4 @@ Note:
 7. when fixed received increase (duration increase), cash flow risk goes down, mkt value risk goes up
 8. a floating loan with a payer swapation, you do not commit(lock) @ X, you could end up with paying less when int rate goes down
 9. when you try to increase the allocation of a bond, if you are given the duration of cash, use V_p*(D_p - D_cash)/D_futures*V_futures
-
+10. to cancel a swap -> to enter a reverse swap or swapation (may not cancel)
