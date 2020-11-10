@@ -20,7 +20,7 @@ VIX return negatively correlates with equity return
   fixed exchange for implied volatility^2
   settlement amt = notional variance * (sigma^2 - K^2)
   MtM variance valuation
-  - expected variance = realized var*t/T + K^2*(T-t)/T
+  - expected variance = realized var*t/T + K^2*(T-t)/T  (time-wighted variance)
   - expected payoff = notional variance * (expected variance - K^2)
   - discount with rf
   
@@ -80,5 +80,27 @@ Note:
 7. cross hedge -> underlying does not match
 8. min variance hedge ratio -> euro stock return in terms of USD ~ b0 + b1*spot rate + epsilon
    where b1 -> MVHR -> cov(y,x)/var_y   -> riskier than one-on-one hedge as it is based on historical data
-  
-
+9. 1% change in volatility for a variance swap -> P&L vega notial
+   variance notional = vega notional / 2*X
+   mtm value = notional variance * (expected variance - K^2)
+             = notional variance * (realized variance * t/T + K^2 * (T-t)/T - K^2)
+             = notional variance * (realized variance * t/T - K^2 * t/T)
+             = notional variance * (realized variance - K^2) * t/T
+             -> payoff of a variance swap is convex to changes in volatility (volatility^2 = variance)
+10. to long EUR/GBP -> if 1 EUR/GBP -> 1.1 EUR/GBP -> you take a profit when GBP ↑
+    -> to long GBP
+11. short a straddle -> short ATM call + short ATM put
+    delta -> ATM option delta = 0.5 ->  +0.5 - 0.5 = 0
+    gamma -> long = pos gamma  short = neg gamma (draw delta(-1~1) ~ stock price) -> - - = negative
+    theta -> long = neg theta  short = pos theta -> + + = postive
+    vega  -> long = pos vega   short = neg vega  -> + + = positive
+12. volatility smile(skew) -> implied volatility (option value) ~ X
+    -> left OTM put and ITM call  /   right OTM call and ITM put
+13. currency overlay -> hire a currency expert while following the same IPS guildlines (they work together)
+    separate asset allocation -> hire a currency expert while following different guildlines (they work separately)
+14. to eliminate the potential basis risk -> exactly match the maturity (do not roll short-term or use long-term)
+15. to completely hedge downside risk of JPY, the cost effective method using option of JPY/EUR would be 
+    long ITM JPY put + short OTM JPY call -> long ITM JPY/EUR call + short OTM JPY/EUR put
+16. to calculate the return of a long currency and a future position
+    -> (END currency value - BGN currency value + P&L on future)/BGN currency value
+   
