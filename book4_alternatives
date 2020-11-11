@@ -66,7 +66,7 @@ cross-asset arbitrage (macro-oriented ?)
 8. conditional factor risk model (like barra)
 return of HF ~ alpha + risk factor + dummy variable (0 if normal, 1 if distress) + error
 - risk factor
-  equity risk/ currency risk/ credit risk/ volatility risk(VIX)
+  equity risk/ currency risk/ credit risk/ volatility risk(VIX)/ liquidity risk
 - risk measure
   [1] sharpe ratio/ sortino ratio (downside risk)
   good: managed futures/ equity mkt netural/ global macro/ event-driven
@@ -169,3 +169,9 @@ Note:
 4. to achieve a target allocation to alternative investments, an investor needs to account for the expected growth rate of the portfolio
 5. Because some alternative investments have relatively short histories of returns data, 
    use of historical data (even unsmoothed data) alone may introduce time-period and small-sample biases
+6. right-tail return/ right-tailed skewness -> crisis alpha, performs good when bad economy
+7. in CFA, equity or distressed debt is not thought to have specific inflation-hedging function
+8. drawback of risk-factor based approach: risk factors may change, and the model is sensitive to inputs
+   drawback of traditional MVO: over-estimation of diversification effect
+9. custom index proxy is unlikely to have the same risk-return characteritic of actual investment
+   providers of peer group benchmark use very different construction rules
