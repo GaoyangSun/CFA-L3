@@ -131,3 +131,20 @@ Note:
 1. increased liquidity can decrease mkt impact and execution risk
    -> execution risk is the adverse price movement in the time it takes to execute an order, more liquid mkt takes less time to execute
 2. IS and mkt-adjusted cost in basis is compared to decision price * decision share
+3. primary formula to calculate IS -> paper return - actual return
+   where paper return (close - decision price) * decision volume
+         actual return (close - exec) * exec volume - commissions
+4. decision price -> prev close by default.  has nothing to do with limit order you placed
+5. trade choice
+   dealer -> large, urgent
+   broker -> large, non-urgent
+   OTC/ RFQ(request for quotes -> mostly used in illiquid mkt, e.g. fixed-income)
+   ATS/MTF -> non-exchange, privacy
+   DMA -> small, buy-side（专线）, exchange-traded derivatives
+   dark pool -> relatively large, non-urgent, illiquid, not need to fulfill all orders, privacy
+   scheduled (POV VWAP TWAP) -> relatively small, non-urgent (not concerned about adverse mkt movement), relatively liquid
+   arrival price -> urgent, risk-averse, relatively liquid, relatively small or medium
+   SORs -> small, urgent, monitor lit and dark mkt
+   
+   
+   
