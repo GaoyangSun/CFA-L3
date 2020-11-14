@@ -131,8 +131,8 @@ r = (NOI1/P0) + g = cap rate + NOI growth rate
 in fintie period
 r = cap rate + NOI growth rate - d%cap rate
 (- d%cap rate) - capital gain, as P0 increase if cap rate decrease
-cap rate - positively related to int rate and vacancy
-           inversely related to availability of debt (P0)
+cap rate - positively related to int rate (r-g) and vacancy (higher risk, higher discount rate)
+           inversely related to availability of debt (P0) (lower int rate, lower r-g)
 
 [2] risk premium
 r = rf + term premium + credit premium + equity risk premium + liquidity premium
@@ -166,7 +166,8 @@ dV/V = dGDP/GDP + d(earnings/GDP)/(earnings/GDP) + dPE/PE + dDiv/Div
 
 2. monetary policy -> inflation / big impact on short-term rate
    fiscal policy -> real int rate/ small impact on long-term rate
-   restrictive monetary policy + restrictive fiscal policy -> higher short-term + lower long-term -> flat
+   restrictive monetary policy + restrictive fiscal policy -> higher short-term + lower long-term -> inverted
+   restrictive monetart policy + loose/stable fiscal policy -> higher short-term + higher/stable long-term -> flat
 3. in business cycle, leading order: stock (money supply, PMI) -> economy (GDP) -> int rate (inflation) bond
    initial recovery: low or falling int rate, bond yields bottom out
    early expansion: rising int rate, stable or rising bond yields
@@ -184,6 +185,11 @@ dV/V = dGDP/GDP + d(earnings/GDP)/(earnings/GDP) + dPE/PE + dDiv/Div
    best practice: use shrinkage estimation of the weighted averages of the sample and factor-based VCV matrices
 9. The downward sloping yield curve indicates that the economy is likely to contract in the future
    In recessions, bonds outperform stocks because inflation and interest rates decrease and economic growth is slow
-   
-   
-   
+10. in real estate, lease ususally locks in longer terms, regardless of economic cycle
+    -> in recession, lease remian, value goes down -> lease rate goes up
+11. for stock -> r = d1/p0 + g = d1/p0 - d%S + d%Earnings + d%P/E
+    for real estate -> r = cap rate + g = cap rate + d%NOI - d%cap rate (capital gain, cap rate decrease -> P0 increase)
+12. high-frequency (daily) data -> subject to async problem (time-lag) -> lower correlation biases
+13. prudence trap -> overly cautious in forecasts
+    e.g. give more weight to historical data as a safety measure to manage client's expectations
+14. 
