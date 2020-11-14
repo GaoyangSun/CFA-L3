@@ -145,6 +145,10 @@ Note:
    scheduled (POV VWAP TWAP) -> relatively small, non-urgent (not concerned about adverse mkt movement), relatively liquid
    arrival price -> urgent, risk-averse, relatively liquid, relatively small or medium
    SORs -> small, urgent, monitor lit and dark mkt
-   
-   
+6. IS = paper return - actual return
+      = (close - decision)#total - (close - exec)#fulfil + commission#fulfill
+      = close#unfulfill + exec#fulfil - decision#total + commission#fulfill
+      = (close - decision)#unfulfil + (exec - decision + commission)#fulfill
+      = (close - decision)#unfulfill + (exec - arrival)#fulfill + (arrival - decision)#fulfill + commission#fulfill
+      = opportunity cost             + execution cost           + arrival cost                 + fee
    
