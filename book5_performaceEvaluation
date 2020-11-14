@@ -106,3 +106,8 @@ Note:
    style alpha = benchmark - mkt
    alpha = portfolio return - benchmark
 3. capture ratio = Rp/Rb (when Rb>0) / Rp/Rb (when Rb<0)
+4. to measusre evaluate hedge fund, 
+   -> long/short may cause initial mkt value to be 0, rendering it difficult to calculatet the return
+   -> hard to find benchmark, may use factor-based method and historical data
+   -> the unsysmetric return distribution makes it inappropriate to use sharpe ratio (which prefer symmetric return distribution), could use sortino ratio
+5. window dressing -> 价值型基金重仓小盘股，在报告期调仓，装作价值型 -> holding-based 
