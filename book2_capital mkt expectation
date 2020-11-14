@@ -174,6 +174,10 @@ dV/V = dGDP/GDP + d(earnings/GDP)/(earnings/GDP) + dPE/PE + dDiv/Div
 4. risk premium RP_(i,glb) = beta(i, glb)*RP_glb
    (set cor(i,m)=1, you get seg)  RP_(i,sgm) = (std(i)/std(glb))*RP_glb
    RP_i = phi*RP_(i,glb) + (1-phi)*RP_(i,sgm)
+   
+   alternative
+   RP = phi * beta_i * sigma_i * SharpeRatio_m + (1-phi) * sigma_i * SharpeRatio_m
+   
 5. Mac D. = modified D. * (1+YTM)
    when investment horizon>Mac D. -> reinvestment yield > fall in bond price -> a rise in bond yields will result in a return higher than YTM
 6. for emerging mkt, signs of potential trouble
@@ -192,4 +196,18 @@ dV/V = dGDP/GDP + d(earnings/GDP)/(earnings/GDP) + dPE/PE + dDiv/Div
 12. high-frequency (daily) data -> subject to async problem (time-lag) -> lower correlation biases
 13. prudence trap -> overly cautious in forecasts
     e.g. give more weight to historical data as a safety measure to manage client's expectations
-14. 
+14. indicators approach -> because relationship between inputs are not static, it has not consistently worked
+    econometric approach -> cannor predict turning points, but can provide quantitative estimates of effect of exogenous variable
+    checklist approach -> subjective
+15. top-down approach -> needs historical data to find relations, therefore can be slow at detecting cyclical returns
+                      -> more optimistic facing a recession compared with bottom-up
+16. long-term government bond yield is directly linked to trend rate of growth in an economy
+    capital gains (not dividend yield) is directly linked to GDP
+17. projected long-term total domestic equity return = capital gains + dividend yield
+    capital gains = d%nominal GDP + d%profits/GDP + d%PE
+    nominal GDP growth = real GDP growth + inflation
+    real GDP growth = labor input growth + labor productivity growth
+18. Dornbusch overshooting -> countries with higher investment return will arract capital with higher expectation, s.t. it will overshoot can depreciate a little in the end
+    F/S = (1+r_dc)/(1+r_fc) -> quote in dc/fc
+    F -> unbiased estimate of spot 
+    (F-S)/S = (r_dc - r_fc)/(1+r_fc) = r_dc - r_fc
