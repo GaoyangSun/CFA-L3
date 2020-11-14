@@ -152,14 +152,26 @@ Note:
    Y = (Y/L) * L
    -> dY/Y = d(Y/L)/(Y/L) + dL/L
    -> dY/Y = dA/A + dL/L + alpha * d(K/L)/(K/L)
+
+alternative deduction
+Y = A * K^alpha * L^(1-alpha)
+logY = logA + alpha*logK + (1-alpha)*logL
+     = logA + logL + alpha*log(K/L)
+dlogY = dlogA + dlogL + alpha*dlog(K/L)
+where dlogX = logX_t - logX_t-1 = log(X_t/X_t-1) = log(1+(X_t - X_t-1)/X_t-1) = (X_t - X_t-1)/X_t-1 = dX/X
+-> dY/Y = dA/A + dL/L + alpha*d(K/L)/(K/L)
+
+the same goes to mkt value of equity V = GDP * (earnings/GDP) * PE
+dV/V = dGDP/GDP + d(earnings/GDP)/(earnings/GDP) + dPE/PE + dDiv/Div
+
 2. monetary policy -> inflation / big impact on short-term rate
    fiscal policy -> real int rate/ small impact on long-term rate
    restrictive monetary policy + restrictive fiscal policy -> higher short-term + lower long-term -> flat
-3. in business cycle, leading order: stock -> economy -> int rate, bond
+3. in business cycle, leading order: stock (money supply, PMI) -> economy (GDP) -> int rate (inflation) bond
    initial recovery: low or falling int rate, bond yields bottom out
    early expansion: rising int rate, stable or rising bond yields
-4. risk premium RP_glb = beta(i, glb)*RP_glb
-   (set cor(i,m)=0, you get seg)  RP_seg = (std(i)/std(glb))*RP_glb
+4. risk premium RP_(i,glb) = beta(i, glb)*RP_glb
+   (set cor(i,m)=1, you get seg)  RP_(i,sgm) = (std(i)/std(glb))*RP_glb
    RP_i = phi*RP_(i,glb) + (1-phi)*RP_(i,sgm)
 5. Mac D. = modified D. * (1+YTM)
    when investment horizon>Mac D. -> reinvestment yield > fall in bond price -> a rise in bond yields will result in a return higher than YTM
