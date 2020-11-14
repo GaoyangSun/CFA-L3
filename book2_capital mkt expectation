@@ -211,3 +211,5 @@ dV/V = dGDP/GDP + d(earnings/GDP)/(earnings/GDP) + dPE/PE + dDiv/Div
     F/S = (1+r_dc)/(1+r_fc) -> quote in dc/fc
     F -> unbiased estimate of spot 
     (F-S)/S = (r_dc - r_fc)/(1+r_fc) = r_dc - r_fc
+    r_dc here is not the risk-free rate of dc, 
+    but r = rf + term premium + credit premium + equity risk premium + liquidity premium
