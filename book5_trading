@@ -151,4 +151,4 @@ Note:
       = (close - decision)#unfulfil + (exec - decision + commission)#fulfill
       = (close - decision)#unfulfill + (exec - arrival)#fulfill + (arrival - decision)#fulfill + commission#fulfill
       = opportunity cost             + execution cost           + arrival cost                 + fee
-   
+7. trading cost = execution cost = (exec - arrival)#fulfill -> use detailed order by order data if given
