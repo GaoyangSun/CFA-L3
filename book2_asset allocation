@@ -32,6 +32,8 @@ criteria: homogeneous (within)/ mutually exclusive/ diversifying/ largely exhaus
 5. isolate risk factor (pure-factor portfolio)
 - inflation
   long nominal Treasuries, short inflation-linked bond
+  -> TIPS is a kind of inflation-linked bond, whose value is only affected by real int rate, and not affected by inflation
+  -> inflation factor = nominal Treasuries (real int rate + inflation) - inflation-linked bond (real int rate)
 - real int rates
   inflation-linked bond
 - US volatility
@@ -75,7 +77,7 @@ cons:
 - liquidity
   exclude less liquid asset/ replace with liquid similar asset
 - risk factor may not be diversified (risk-budgeting and factor-based model)
-  factor—based model - construct the frontier of risk factors, run the optimized combo, then map back to asstes
+  factor—based model - construct the frontier of risk factors, run the optimized combo, then map back to assets
 - single-period framework (MCS method)
   cons: frequent rebalancing/ path dependent (next path depends on previous path)
 - not account for liability or consumption
@@ -146,11 +148,11 @@ Sharpe ratio or info ratio/ t-stat of difference/ plot risk and return on SAA fr
 
 Note:
 1. a young women with no debt and expected inheritence starting a job is considered high capacity for risk and no financial capital
-2. for preexistent positions of a client, 
+2. for preexistent positions of a client
    [1] ignoring the positions and running MVO for the rest of the client’s portfolio
    [2] modeling the specific characteristics of what that client actually owns
    [3] using data on public funds but realizing that such data will not reflect the specific characteristics of the client’s positions
-3. for  incorporating client risk preferences into asset allocations
+3. for incorporating client risk preferences into asset allocations
    [1] specifying additional constraints
    [2] specifying a risk aversion factor for the investor
    [3] using MCS
@@ -160,5 +162,16 @@ Note:
    Integrated asset-liability approach -> take liability as a variable
    Surplus efficient frontier approach/Two-portfolio approach -> take the liabilities as a given and only focus on managing the assets
 5. deviation(rebalancing range)_pretax = deviation(rebalancing range)_aftertax  * (1-tax rate)
-
-
+6. within the same goal's layer, investment horizon affect the risk tolerance level of each goal
+   education/medical is not necessarily more risk-averse than charity
+7. max sharpe ratio given a range of volatility -> AO, use law of large numbers to decide liability -> ALM
+8. insurance companies often segement their general acconut asset into sub-portfolios with specific lines of business or liabilities,
+   each with its own return objective
+9. low pairwise correlations with other asset classes is not enough
+10. rf_AO -> cash or asset that has low correlation with other assets
+    rf_ALM -> asset that has high correlation with liability
+    benchmark_ALM -> liability
+11. to mimic the liability of DB plan
+    inactive - inflation-hedged -> TIPS, not hedged -> nominal bonds
+    active - accured -> TIPS or nominal bonds, future wage growth -> TIPS (inflation) + equities
+    
