@@ -151,7 +151,17 @@ Ra = sum over (beta_p - beta_b)*factor + alpha + epsilon
 Notes
 1. ESG constraints -> active mgt, narrowly defined benchmark -> passive mgt
 2. pro of derivative -> quick, efficient, cheap, liquid
-   con if derivative -> have to roll over, position limit, not flexible, counterparty risk, basis risk
+   con of derivative -> have to roll over, position limit, not flexible, counterparty risk, basis risk
 3. pro of ETF -> cheap and efficient than mutual open fund, reduce taxable gains and losses to existing holders
    con of ETF -> trading cost, bid-ask spread
 4. relative value -> low P/E compare to sector-average
+5. replication of an index
+   full replication -> liquid, small #stock
+   stratified sampling -> no obvious con
+   (factor-based) optimization -> based on historical relations, do not work if factors are uncorrelated?
+6. construction of an index
+   value-weighted -> biased toward large stock, minimize tracking error, self-rebalancing, minimal rebalancing cost
+   equal-weighted -> biased toward small stock
+7. concern about growth / value
+   growth -> P = EPS * P/E -> 1. EPS less than expected, 2. P/E contract -> Davis double click (kill)
+   value -> undervaluation will not correct
