@@ -53,7 +53,7 @@ criteria: homogeneous (within)/ mutually exclusive/ diversifying/ largely exhaus
  - calendar/ percent-range (trigger points or range)
  - range are affected by (wider range - less likely to rebalance)
    core -> prob(deviation from SAA)/ do less rebalancing
-   pos relative -> transanction cost/ risk-aversion/ asset class correlation/ belief in momentum
+   pos relative -> transanction cost/ risk tolerance/ asset class correlation/ belief in momentum
    neg relative -> volatility(not quite intuitive)/ taxes (rebalance with loss can create a tax shield)/ belief in mean-reversion
  - effects
    better diversification/ short volatility
@@ -174,4 +174,10 @@ Note:
 11. to mimic the liability of DB plan
     inactive - inflation-hedged -> TIPS, not hedged -> nominal bonds
     active - accured -> TIPS or nominal bonds, future wage growth -> TIPS (inflation) + equities
-    
+12. pre-tax range -> a, tax rate -> t, after-tax range?
+    higher tax rate -> higher transaction cost -> wider range -> a/(1-t)
+13. range increase with higher cost, lower prob of deviation
+    -> asset correlation (one rise, others rise -> less likely to deviate)
+    -> illiquidity -> higher transaction cost
+14. when credit spreads are high -> corporate bond YTM are high -> corporate bond prices are low -> long corporate bond
+    GDP growth ok -> equities will be ok
