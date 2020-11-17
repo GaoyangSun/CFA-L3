@@ -5,3 +5,13 @@ Behavioral finance
 2. herding -> actions often caused by regret aversion
 3. state a cognitive bias to belief perservance (RICCH) or information-processing (FAMA)
 
+Economics
+1. permanent income hypothesis 
+   consumer spending is based on long-term predictions of income, short-term deviations (GDP decrease) does not affect the spending
+2. G-K model (alternative)
+   d%Y = d%A + alpha*d%K + (1-alpha)*d%L
+   A -> total factor productivity / K -> growth in capital stock / L -> growth in labor input
+   alpha -> output elasticity of capital / 1-alpha -> output elasticity of labor
+3. factors may positively affect inflation
+   consumer confidence index / inventory/sales / GDP output gap (actual GDP - potential GDP)/potential GDP
+   
