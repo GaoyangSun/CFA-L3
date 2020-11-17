@@ -162,6 +162,7 @@ risks (1) int rate measurement and mgt
 - CDO (debt)
   senior/mezz/junior values change with correlation in default
 
+
 Notes
 1. short-term rates always change more than long-term rates (assume long-term remains) 
    -> short-term changes > 2*intermediate changes, however, short-term changes does not matter as its duration = almost 0
