@@ -218,6 +218,7 @@ DD_L = DD_A + NP*DD_swap
   sector and quality
   optionality
   issuer exposure
+[3] active
   
 18. laddered bond portfolio
 pros: diversified / modest convexity / liqudity mgt
@@ -229,6 +230,26 @@ Notes
    - realize capital losses to offset capital gains
    - extending holding periods to realized long-term capital gains
    - consider differentials in income and gain tax
-2. managing liability from lowest risk to highest risk
-   cahs flow matching -> horizon matching -> immunization -> contingent immunization
+2. managing liability from lowest risk to highest risk (needs most cash to least)
+   cash flow matching -> horizon matching -> immunization -> contingent immunization
 3. convexity (涨多跌少) -> dispersion -> barbell -> putable
+4. for a 5% per year liability, you need a security with both YTM and RI to be 5%
+5. relative value in bond -> rank expected return by sectors, structures, issuers from mkt
+6. execess return -> return_p - return_treasury with a set of key rate duration across the term structure
+   expected return -> estimate future returns by decomposing historical patterns that are like to recur
+7. (D_target - D_portfolio)*V_portfolio = N * D_future * V_future = N * (D_CTD/CF) * V_CTD
+   BPV_target -  BPV_portoflio = N * BPV_future = N * (BPV_CTD/CF)
+8. income risk is smaller in a portoflio with longer maturities
+9. in inmmunization, aside from D_A = D_L, it requires PV_A >= PV_L, not r_A >= r_L
+10. structure trade -> trade security with and without option
+11. in yield maximization, total return approach is better than relative value
+12. in AO, enhanced indexing uses the sampling method, while pure bond indexing and active mgt do not
+13. inmmunization needs rebalancing, even after one small parallel shift, or just after some time
+14. cushion spread -> active mgt to generate returns - for an incremental difference between min acceptable return and higher immunized rate
+15. spread duration is the key measure of relative sensitivity and tracking error
+16. when int rate rise, callable bond (bond - call) will not execise the option, thus increasing the value
+                        putable bond (bond + put) will execise the option, thus increase the value
+17. enhanced indexing -> try to earn back admin and other fees, if attain higher return than that, it is likely to be active mgt
+18. to long convexity -> reduce exposure to callable and MBS, long putable, long call and put options (volatility ~ convexity)
+19. positive (right) skewed return -> long tail @ right -> mean > median. 
+    most investment in emerging mkts are negatively (left) skewed
