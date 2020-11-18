@@ -15,3 +15,20 @@ Economics
 3. factors may positively affect inflation
    consumer confidence index / inventory/sales / GDP output gap (actual GDP - potential GDP)/potential GDP
    
+Individual
+1. life-insurance, trust and charity can reduce total estate, resulting in a lower future estate tax
+2. factors that increase ability to take risk
+   -> long horizon(10 yrs or longer)/ stable income and expense/ mortgage-free house/ fully vested pension plan
+   factors that decrease ability to take risk
+   -> short horizon/ concentrated position/ reduced human capital (disability)/ donation (or other cash outflow)
+3. accural equivalent tax rate
+   -> calculate after-tax return r_at = (FV_at/PV) xexp (1/T) - 1
+   -> calculate equivalent tax rate ->  T_ae = 1 - (r_at/r_pt)
+4. tax liability = tax base * tax rate
+5. pay attention to the timing of cash flow (coming year, then inflation not considered) 
+                and the nature of cash flow (if it is taxable)
+6. IPS for time-horizon 
+   long/short, how many stages
+7. IPS for uniqueness
+   personal investment outside advisor-managed portfolio
+8. shortfall risk = pre-tax nominal return - 2*nominal standard deviation
