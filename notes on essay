@@ -18,9 +18,11 @@ Economics
 Individual
 1. life-insurance, trust and charity can reduce total estate, resulting in a lower future estate tax
 2. factors that increase ability to take risk
-   -> long horizon(10 yrs or longer)/ stable income and expense/ mortgage-free house/ fully vested pension plan
+   -> long horizon(10 yrs or longer)/ stable income and expense (net savers)/ mortgage-free house/ fully vested pension plan
    factors that decrease ability to take risk
-   -> short horizon/ concentrated position/ reduced human capital (disability)/ donation (or other cash outflow)
+   -> short horizon/ concentrated position/ reduced human capital (disability)/ donation (or other cash outflow)/ small asset base
+   with passage of time, factors that may have changed
+   -> shorter horizon/ larger asset base/ accomplished cash outflow
 3. accural equivalent tax rate
    -> calculate after-tax return r_at = (FV_at/PV) xexp (1/T) - 1
    -> calculate equivalent tax rate ->  T_ae = 1 - (r_at/r_pt)
@@ -32,3 +34,8 @@ Individual
 7. IPS for uniqueness
    personal investment outside advisor-managed portfolio
 8. shortfall risk = pre-tax nominal return - 2*nominal standard deviation
+9. CFA calculator can input PV and PMT
+10. pro of MCS -> simulate the probaility of distribution, allowing the client to determine the likelihood of accomplishing his goals
+                  can consider multi-period effect of tax changes (if there is any)
+    con of MCS -> does not reflect expection/ long period data subject to regime changes
+11. conversion from DB to DC shifts risk to employees, therefore increasing their longevity risk
