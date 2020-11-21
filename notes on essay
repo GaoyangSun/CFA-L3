@@ -58,3 +58,7 @@ Asset allocation
    to MCS -> multi-period framework considering a lot of variables
              rebalacning policy can be incorporated
              non-nornam distribution properties like skewness can incorporated
+
+Equity
+1. to full replication or to stratified sampling
+   if the benchmark has high liquidity and low number of stocks (IH) -> better to use full replication
