@@ -75,4 +75,8 @@ Fixed income
 2. when calculate next year's coupon return, (coupon rate * 100)/this year's mkt value
 3. when choosing bond portfolio with a yield curve changes, see the portoflio as barbell/bullet/laddered
    don't pay too much attention on the figure, as the change in the long term is far more important than the change in the short term
-4. 
+4. to immunize a single liability   -> PV_A = PV_L/ D_A = D_L/ minimize portfolio convexity
+   to immunize multiple liabilities -> PV_A = PV_L/ D_A = D_L/ durations of the portfolio have a wider range than the durations of the liabilities
+5. callable bond -> to buy back the bond -> bond issuer's right -> bond value = bond - call -> increase when yield decrease
+   putable bond -> to sell the bond -> bond holder's right -> bond value = bond + put -> increase when yield increase
+6. 
