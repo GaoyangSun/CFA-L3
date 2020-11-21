@@ -69,3 +69,10 @@ Trading
    IS -> urgent, regardless of the relative order size
    vwap -> less urgent, small order compared to daily volume
 
+Fixed income
+1. to fully immunize a portfolio
+   PV_A = PV_L/ D_A = D_L/ minimize portfolio convexity
+2. when calculate next year's coupon return, (coupon rate * 100)/this year's mkt value
+3. when choosing bond portfolio with a yield curve changes, see the portoflio as barbell/bullet/laddered
+   don't pay too much attention on the figure, as the change in the long term is far more important than the change in the short term
+4. 
