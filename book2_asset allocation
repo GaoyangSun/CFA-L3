@@ -179,5 +179,7 @@ Note:
 13. range increase with higher cost, lower prob of deviation
     -> asset correlation (one rise, others may rise after a period of time -> less likely to deviate)
     -> illiquidity -> higher transaction cost
+    -> belief in momentum, A rise, rebalancing requires to reduce the position, but you believe it would rise more 
+                           A down, rebalacning requires to add the position, but you believe it would down more
 14. when credit spreads are high -> corporate bond YTM are high -> corporate bond prices are low -> long corporate bond
     GDP growth ok -> equities will be ok
