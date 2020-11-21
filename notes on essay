@@ -62,3 +62,10 @@ Asset allocation
 Equity
 1. to full replication or to stratified sampling
    if the benchmark has high liquidity and low number of stocks (IH) -> better to use full replication
+
+Trading
+1. IS in bps = (paper return - actual return)%total value in initiation
+2. opportunistic strategy -> less urgent, large order compared to daily volume
+   IS -> urgent, regardless of the relative order size
+   vwap -> less urgent, small order compared to daily volume
+
