@@ -49,3 +49,12 @@ Institutional
 4. fewer people in a pension plan would increase the liability noise, because acturial model follows law of large numbers
 5. when comparing projects to take, take the one with lower required rate of return, giving it some cushion for volatilies in return or other variables (inflation)
 6. a general spending rate can take more risks than a specific purpose
+
+Asset allocation
+1. to ALM or not to ALM
+   to -> fix-amt considered as liability
+   not to -> floting-amt(5%) not considered as liability/ willingness to operate in perpetuity by investing in higher return
+2. to MCS or MVO
+   to MCS -> multi-period framework considering a lot of variables
+             rebalacning policy can be incorporated
+             non-nornam distribution properties like skewness can incorporated
