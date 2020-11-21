@@ -177,7 +177,7 @@ Note:
 12. pre-tax range -> a, tax rate -> t, after-tax range?
     higher tax rate -> higher transaction cost -> wider range -> a/(1-t)
 13. range increase with higher cost, lower prob of deviation
-    -> asset correlation (one rise, others rise -> less likely to deviate)
+    -> asset correlation (one rise, others may rise after a period of time -> less likely to deviate)
     -> illiquidity -> higher transaction cost
 14. when credit spreads are high -> corporate bond YTM are high -> corporate bond prices are low -> long corporate bond
     GDP growth ok -> equities will be ok
