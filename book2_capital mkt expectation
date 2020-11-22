@@ -206,7 +206,10 @@ dV/V = dGDP/GDP + d(earnings/GDP)/(earnings/GDP) + dPE/PE + dDiv/Div
 17. projected long-term total domestic equity return = capital gains + dividend yield
     capital gains = d%nominal GDP + d%profits/GDP + d%PE
     nominal GDP growth = real GDP growth + inflation
-    real GDP growth = labor input growth + labor productivity growth
+    labor-based method GDP growth = employment + labor productivity
+                                  = (growth in potential labor force + growth in labor force participation) + growth in labor producitivity
+                                  (labor productivity is a sub-component of total labor productivity)
+    G-K on stock return = (D1/P0 - d%Shares) + d%Earnings + d%P/E
 18. Dornbusch overshooting -> countries with higher investment return will arract capital with higher expectation, s.t. it will overshoot can depreciate a little in the end
     F/S = (1+r_dc)/(1+r_fc) -> quote in dc/fc
     F -> unbiased estimate of spot 
