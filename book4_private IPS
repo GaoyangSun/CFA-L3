@@ -309,8 +309,9 @@ Note:
     T_ae = 1 - R_ae/R_pt
 23. primary capital = personal (residence, CDs, cash) + mkt (equity and bond). secondary = aspirational (concentraded positions)
 24. sale and lease back with rent payable immediately -> price - (price - cost)*T_cg - rent + rent * T_income
-25. mismatch in character -> tax mismatch, e.g. on collars
-    premium received -> income, premium paid -> later as deduction when realizing capital gains
+25. mismatch in character -> tax mismatch
+    e.g. on collars -> premium received -> income, premium paid -> later as deduction when realizing capital gains
+    or different tax types -> on capital gain and income
 26. flat and heavy tax regime -> flat -> on salary,  heavy -> on dividend and capital gains.  so int-paying asset is better
 27. MVO can consider taxable and tax-exempt together, R_tax = R_exp*(1-t) -> sigma_tax = sigma_exp*(1-t)
 28. death benefit are tax-exempt in most countries
