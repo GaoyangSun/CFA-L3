@@ -253,3 +253,5 @@ Notes
 18. to long convexity -> reduce exposure to callable and MBS, long putable, long call and put options (volatility ~ convexity)
 19. positive (right) skewed return -> long tail @ right -> mean > median. 
     most investment in emerging mkts are negatively (left) skewed
+20. methods of leverage to increase portfolio returns
+    -> futures/ swaps/ structured financial instruments/ repos/ securities lending
