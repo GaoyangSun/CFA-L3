@@ -27,8 +27,8 @@ KDRi = WiDi
 - price ~ yield, negatively inverted to axies
   therefore, for certain d_y, prices goes higher than lower
 - d_p = - D * d_y + (1/2) * Conv * (d_y)**2
-- callable: part negative convexity - lower convexity over all
-  putable: part higher convexity - higher convexity over all
+- callable: part negative convexity - lower convexity over all -> cheaper
+  putable: part higher convexity - higher convexity over all -> expensive
 
 4. realized return
 RR = coupon + coupon reinvestment (RI risk) + capital gain/loss(price risk)
@@ -71,7 +71,7 @@ barbell portfolio - like a barbell
 - fixed-coupon, unprotected
 - floating-coupon, protected coupon, not but principal
 - inflation-linked coupon 
-  like TIPS (princial linked to inflation, coupon rate fixed)
+  like TIPS (principal linked to inflation, coupon rate fixed)
   both principal and coupon are protected
   
 8. ALM mandates
@@ -115,7 +115,7 @@ benchmark: index
   larger issues > smaller issues
   shorter-term > longer-term
 
-- in pricing illiquid, use matrix pricing (linear interpolation)]
+- in pricing illiquid, use matrix pricing (linear interpolation)
 - alternative ways to long illiquid FI - future, CDS, ETFs
 
 11. return decompose
@@ -243,12 +243,12 @@ Notes
 9. in inmmunization, aside from D_A = D_L, it requires PV_A >= PV_L, not r_A >= r_L
 10. structure trade -> trade security with and without option
 11. in yield maximization, total return approach is better than relative value
-12. in AO, enhanced indexing uses the sampling method, while pure bond indexing and active mgt do not
+12. in AO, enhanced indexing uses the sampling method (stratified sampling to match primary risk factors), while pure bond indexing and active mgt do not
 13. inmmunization needs rebalancing, even after one small parallel shift, or just after some time
 14. cushion spread -> active mgt to generate returns - for an incremental difference between min acceptable return and higher immunized rate
 15. spread duration is the key measure of relative sensitivity and tracking error
 16. when int rate rise, callable bond (bond - call) will not execise the option, thus increasing the value
-                        putable bond (bond + put) will execise the option, thus increase the value
+                        putable bond (bond + put) will execise the option, thus increasing the value
 17. enhanced indexing -> try to earn back admin and other fees, if attain higher return than that, it is likely to be active mgt
 18. to long convexity -> reduce exposure to callable and MBS, long putable, long call and put options (volatility ~ convexity)
 19. positive (right) skewed return -> long tail @ right -> mean > median. 
