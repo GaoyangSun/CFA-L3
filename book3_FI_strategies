@@ -21,7 +21,7 @@ Reading 20-21
     short bonds with high convexity, long bonds with low convexity
     high: putable
     low: callable, MBS(can prepay)
-[4] carry trade
+[4] carry trade (buy duration)
     if no expected change in yield curve, then duration is no harm
     long a long-term bond with low financing cost (issuing a low-yield bond)
     buy bond with repo/ receive fixed, pay float/ long future
@@ -57,16 +57,20 @@ Reading 20-21
 [2] slope change
     - flattens (short term increase, long term remain or decrease)
       barbell outperforms bullet
+      (short-term affects little, long-term remain the same, so barbell is hardly affected)
       so, long barbell, short bullet
-    - flattens (short term decrease, long term remain or increase)
+    - stepeens (short term decrease, long term remain or increase)
       barbell underperforms bullet
+      (basically the same as above, barbell is hardly affected in both case)
       so, long bullet, short barbell
 [3] curvature change
     - more curvature
       barbell outperforms bullet
+      (mid-term up -> bullet down, long-term down -> barbell up)
       so, long barbell, short bullet
     - less curvature
       barbell underperforms bullet
+      (mid-term down -> bullet up, long-term up -> barbell down)
       so, long bullet, short barbell
 [4] volatility change
     - volatility increase
@@ -145,7 +149,7 @@ risks (1) int rate measurement and mgt
 8. others
 [1] liqudity risk
 - measures of secondary mkt liquidity risk
-  tradeing vol./ spread sensitivity to fund outflows/ bid-ask spread
+  trading vol./ spread sensitivity to fund outflows/ bid-ask spread
 [2] tail risk
 - portfolio diversification/ tail risk hedge
 [3] international credit mkt
@@ -156,7 +160,7 @@ risks (1) int rate measurement and mgt
   credit quality (sovereign ceiling)
 [4] structured financial instruments
 - MBS (mortgage)
-  high liquidity/ less default risk/ exposure to real estate/ exposure tp expcted changes in int rate volatility
+  high liquidity/ less default risk/ exposure to real estate/ exposure to expcted changes in int rate volatility
 - ABS (non-mortgage)
   more liquid/ diversification
 - CDO (debt)
