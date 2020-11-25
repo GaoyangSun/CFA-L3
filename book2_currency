@@ -22,6 +22,7 @@ VIX return negatively correlates with equity return
   MtM variance valuation
   - expected variance = realized var*t/T + K^2*(T-t)/T  (time-wighted variance)
   - expected payoff = notional variance * (expected variance - K^2)
+                    = notional variance * (Var_realized^2 - K^2) * t/T
   - discount with rf
   
 4. other derivatives
@@ -44,7 +45,7 @@ VIX return negatively correlates with equity return
   
   r_DC = (1+r_FC)(1+r_FX) - 1
   on portfolio, r_DC = sum over wi*(1+r_FCi)*(1+r_FXi) - 1
-- variance decompose  
+- variance decompose  (assume r_DC = r_FC + r_FX)
   var_DC = var_FC + var_FX + 2*sigma_FC*sigma_FX*correlation(FC, FX)
   
 6. should you hedge FX risk?
@@ -92,8 +93,8 @@ Note:
 11. short a straddle -> short ATM call + short ATM put
     delta -> ATM option delta = 0.5 ->  +0.5 - 0.5 = 0
     gamma -> long = pos gamma  short = neg gamma (draw delta(-1~1) ~ stock price) -> - - = negative
-    theta -> long = neg theta  short = pos theta -> + + = postive
-    vega  -> long = pos vega   short = neg vega  -> + + = positive
+    theta -> long = neg theta  short = pos theta -> + + = positive
+    vega  -> long = pos vega   short = neg vega  -> - - = negative
 12. volatility smile(skew) -> implied volatility (option value) ~ X
     -> left OTM put and ITM call  /   right OTM call and ITM put
 13. currency overlay -> hire a currency expert while following the same IPS guildlines (they work together)
