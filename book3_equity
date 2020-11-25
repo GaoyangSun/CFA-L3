@@ -165,3 +165,16 @@ Notes
 7. concern about growth / value
    growth -> P = EPS * P/E -> 1. EPS less than expected, 2. P/E contract -> Davis double click (kill)
    value -> undervaluation will not correct
+8. Investors are more likely to be willing to pay higher fees for higher Active Share as an indicator of greater active management.
+   Not active risk.
+9. diversified multi-factor approach -> low single-security risk (1%), modest overall portfolio risk, flexibility on sector risk
+   stock-picking -> high active risk, high exposure to risk from a single security, low sector deviations
+   sector rotation -> high active risk, high tolerance for sector deviations
+10. risk-efficient -> lowest active risk using fewer securities and higher active share
+11. when you add a fund to a bigger portfolio, high covariance with the fund may increase the total volatility but likely decrease the active risk
+12. passive factor-based strategies tend to be transparent in terms of factor selection, weighting, and rebalancing, can be easily copied
+    relative to boark-mkt-cap-weighting, it tend to concentrate risk exposures
+13. large tracking error stems from -> smaller number of stocks/ delay in reinvesting dividends/ less frequently rebalancing or reconstituting
+14. buffering -> as long as stocks remain in the buffer zone, they stay in the current index -> #holdings > #index
+    reconstituting -> delete names that are not longer in and adding names approved
+    packeting -> if a mid-cap stock's cap increase above the breakpoint between the mid-cap/large-cap, it is split into 2
