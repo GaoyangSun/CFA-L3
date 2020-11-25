@@ -55,7 +55,7 @@ time-series momentum /cross-sectional momentum
 time-zone arbitrage (same underlying, different countries)
 cross-asset arbitrage (macro-oriented ?)
 [2] reinsurance / life settlements
-    - low surrender value/ low premium pmts/ high prob
+    - low surrender value/ low premium pmts/ high prob of people die
     
 7. multi-manager 
 [1] FOF
@@ -91,7 +91,7 @@ return of HF ~ alpha + risk factor + dummy variable (0 if normal, 1 if distress)
   other: commodity - REIT - private real estate - private real asset
 - by economy/inflation
   bad/deflation: non-indexed bond (FI)
-  bad/high infaltion: indexed bond/ gold
+  bad/high inflation: indexed bond/ gold
   good/moderate inflation: equity and private credit
   good/high inflation: commodities/ real estate
 - pros
