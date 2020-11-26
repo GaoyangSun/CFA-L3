@@ -216,3 +216,7 @@ dV/V = dGDP/GDP + d(earnings/GDP)/(earnings/GDP) + dPE/PE + dDiv/Div
     (F-S)/S = (r_dc - r_fc)/(1+r_fc) = r_dc - r_fc
     r_dc here is not the risk-free rate of dc, 
     but r = rf + term premium + credit premium + equity risk premium + liquidity premium
+19. when regressing GDP against labor and capital, the intercept is the total factor productivity
+    when asked which factor has the greatest impact, multiply the beta with the actual growth rate of both labor and capital, and compare them with the intercept
+20. H-model -> (D/r-g)*[(1+long-term g) + (N/2)*(short-term g - long-term g)]
+    fed model -> forward earnings yield = long-term treasury yield. if >, then undervalued
