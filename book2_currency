@@ -104,4 +104,8 @@ Note:
     long ITM JPY put + short OTM JPY call -> long ITM JPY/EUR call + short OTM JPY/EUR put
 16. to calculate the return of a long currency and a future position
     -> (END currency value - BGN currency value + P&L on future)/BGN currency value
-   
+17. factors that cause appreciation
+    higher real rates/ healthy debt situation/ increase in trade surplus/ decline in trade deficit
+18. to calculate the cash required to close out USD/EUR, 
+    value * (forward_t - forward_0) / (1 + US Libor * t/360)
+
