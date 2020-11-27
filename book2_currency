@@ -108,4 +108,8 @@ Note:
     higher real rates/ healthy debt situation/ increase in trade surplus/ decline in trade deficit
 18. to calculate the cash required to close out USD/EUR, 
     value * (forward_t - forward_0) / (1 + US Libor * t/360)
-
+19. currency roll yield -> positive if sell @ premium or buy @ discount, + if sell depreciated or buy appreciated
+20. non-deliverable forwards(NDFs) is cash settled and have smaller credit risk compared to outright forward,
+    as no notional principle is exchanged at the maturity
+21. to hedge two long foreign curreny position with high correlation, you directly hedge each one.
+    The high correlation only help if you long one and short one, in that case you may use cross-hedge or MVHR
