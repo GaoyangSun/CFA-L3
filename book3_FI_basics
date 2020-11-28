@@ -256,3 +256,17 @@ Notes
 20. methods of leverage to increase portfolio returns
     -> futures/ swaps/ structured financial instruments/ repos/ securities lending
 21. zero replication -> D_A = D_L, s.t. the int rate risk has been immunized
+22. investment-grade bond -> spread risk (credit rating migration, measured by spread duration) -> negative relation between credit spread and risk-free rate
+    high-yield -> credit loss -> EL = PD * LGD
+23. Z-spread > OAS -> callable/ Z-spread = OAS -> option-free/ Z-spread < OAS -> putable
+    Z-spread is the benchmark, if you add less yield to match the benchmark, it means the bond is less valuable -> callable
+24. roll-down strategy applies in a upward sloping, static yield curve. It rolls down (right to left) and sell bond at a lower yield
+25. long MBS -> sell prepmt option (bet you will not call) -> sell convexity
+
+
+
+
+
+
+
+
