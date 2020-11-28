@@ -260,3 +260,6 @@ Notes:
 23. 7 years of record retention is only recommended, there is no minimun requirement
 24. GIPS-compliant composite consists of all acutal fee-paying and discretionary portfolios
 25. only direct trading expense (not including mge and custodial fees) should be deducted in calculating gross-of-fess return
+26. general investment -> valuation monthly/ gross or net-of-fees
+    real estate -> valuation quarterly/ net-of-fees
+    private equity -> valuation annually/ gross and net-of-fees
