@@ -262,7 +262,12 @@ Notes
     Z-spread is the benchmark, if you add less yield to match the benchmark, it means the bond is less valuable -> callable
 24. roll-down strategy applies in a upward sloping, static yield curve. It rolls down (right to left) and sell bond at a lower yield
 25. long MBS -> sell prepmt option (bet you will not call) -> sell convexity
-
+26. bonds with option -> effective duration and effective convexity
+    option-free bond -> modified duration and convexity
+27. Immunization -> minimize the variance in the realized rate of return/ lock in the cash flow yield (internal rate of return) on the portfolio
+28. immunize a single liability -> matched Mac Duration and minimize portfolio convexity
+           multiple liabilities -> larger convexity than liability but minimized in order to minimize dispersion and reduce structural risk
+29. to deal with one-time shift in yield curve -> match Mac Duration -> price effect cancel coupin reinvestment effect
 
 
 
