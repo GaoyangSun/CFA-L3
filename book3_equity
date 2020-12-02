@@ -178,3 +178,6 @@ Notes
 14. buffering -> as long as stocks remain in the buffer zone, they stay in the current index -> #holdings > #index
     reconstituting -> delete names that are not longer in and adding names approved
     packeting -> if a mid-cap stock's cap increase above the breakpoint between the mid-cap/large-cap, it is split into 2
+15. in calculating a portfolio's risk and return characteritics
+    return-related -> sum over w_i * return_i
+    risk-related (variance, tracking error) -> (sum over (w_i * risk_i)**2)**0.5
