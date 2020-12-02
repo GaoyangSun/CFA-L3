@@ -126,3 +126,4 @@ Note:
 10. to cancel a swap -> to enter a reverse swap or swapation (may not cancel)
 11. if given the duration of cash, then the #futures needed
     (D_cash - D_p)*(V_target - V_p)/(D_future*V_future)
+12. to adjust bond duration with future contract, use modified duration of future
