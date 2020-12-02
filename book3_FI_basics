@@ -268,7 +268,9 @@ Notes
 28. immunize a single liability -> matched Mac Duration and minimize portfolio convexity
            multiple liabilities -> larger convexity than liability but minimized in order to minimize dispersion and reduce structural risk
 29. to deal with one-time shift in yield curve -> match Mac Duration -> price effect cancel coupin reinvestment effect
-
+30. DB plan is a form of type IV liability. timing (you don't know how long to pay) amonut (you don't know the wages before retirement)
+31. In LDI, even if the liability is certain with timing and amount, is still affected by interest rate in the form of discount rate
+32. if an outstanding bond can be retrived with a samll premium, there is no need to long a bond with duration/cash flow matching
 
 
 
