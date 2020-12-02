@@ -181,3 +181,5 @@ Notes
 15. in calculating a portfolio's risk and return characteritics
     return-related -> sum over w_i * return_i
     risk-related (variance, tracking error) -> (sum over (w_i * risk_i)**2)**0.5
+16. buy-and-hold outperforms rebalancing strategy in an upward trending market.
+    buy-and-hold is not for conservative risk profile
