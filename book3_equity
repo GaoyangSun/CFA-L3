@@ -183,3 +183,4 @@ Notes
     risk-related (variance, tracking error) -> (sum over (w_i * risk_i)**2)**0.5
 16. buy-and-hold outperforms rebalancing strategy in an upward trending market.
     buy-and-hold is not for conservative risk profile
+17. core-satellite differs from alpha beta separation in that the satellite also carrys beta
