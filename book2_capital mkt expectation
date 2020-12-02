@@ -71,7 +71,8 @@ tax and government spending
 budget deficit = fiscal policy + business cycle
 - on int rate (after the policy has taken effect)
 monetary affects inflation, fisical affects real rate
-loose monetary - high inflation, loose fisical - high real rates
+loose monetary - 
+inflation, loose fisical - high real rates
 - on yield curve (during the policy)
 monetary affects short-term yield largely, fisical affects long-term yield mildly
 loose monetary - lower short-term yield, loose fisical - high long-term rate
@@ -220,3 +221,4 @@ dV/V = dGDP/GDP + d(earnings/GDP)/(earnings/GDP) + dPE/PE + dDiv/Div
     when asked which factor has the greatest impact, multiply the beta with the actual growth rate of both labor and capital, and compare them with the intercept
 20. H-model -> (D/r-g)*[(1+long-term g) + (N/2)*(short-term g - long-term g)]
     fed model -> forward earnings yield = long-term treasury yield. if >, then undervalued
+21. high frequency data  are more sensitive to asynchronism across variables -> tend to produce lower correlation estimates
