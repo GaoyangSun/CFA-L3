@@ -113,3 +113,4 @@ Note:
     as no notional principle is exchanged at the maturity
 21. to hedge two long foreign curreny position with high correlation, you directly hedge each one.
     The high correlation only help if you long one and short one, in that case you may use cross-hedge or MVHR
+22. currency overlay will only add value if the currency alpha has a low correlation with domestic asset returns
