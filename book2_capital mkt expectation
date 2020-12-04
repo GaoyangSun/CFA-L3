@@ -168,7 +168,7 @@ dV/V = dGDP/GDP + d(earnings/GDP)/(earnings/GDP) + dPE/PE + dDiv/Div
 2. monetary policy -> inflation / big impact on short-term rate
    fiscal policy -> real int rate/ small impact on long-term rate
    restrictive monetary policy + restrictive fiscal policy -> higher short-term + lower long-term -> inverted
-   restrictive monetart policy + loose/stable fiscal policy -> higher short-term + higher/stable long-term -> flat
+   restrictive monetary policy + loose/stable fiscal policy -> higher short-term + higher/stable long-term -> flat
 3. in business cycle, leading order: stock (money supply, PMI) -> economy (GDP->benchmark) -> bond -> inflation
    initial recovery: low or falling int rate, bond yields bottom out
    early expansion: rising int rate, stable or rising bond yields
@@ -199,12 +199,12 @@ dV/V = dGDP/GDP + d(earnings/GDP)/(earnings/GDP) + dPE/PE + dDiv/Div
 13. prudence trap -> overly cautious in forecasts
     e.g. give more weight to historical data as a safety measure to manage client's expectations
 14. indicators approach -> because relationship between inputs are not static, it has not consistently worked
-    econometric approach -> cannor predict turning points, but can provide quantitative estimates of effect of exogenous variable
+    econometric approach -> cannot predict turning points, but can provide quantitative estimates of effect of exogenous variable
     checklist approach -> subjective
 15. top-down approach -> needs historical data to find relations, therefore can be slow at detecting cyclical returns
                       -> more optimistic facing a recession compared with bottom-up
 16. long-term government bond yield is directly linked to trend rate of growth in an economy
-    capital gains (not dividend yield) is directly linked to GDP
+    equity capital gains (not dividend yield) is directly linked to GDP
 17. projected long-term total domestic equity return = capital gains + dividend yield
     capital gains = d%nominal GDP + d%profits/GDP + d%PE
     nominal GDP growth = real GDP growth + inflation
@@ -212,7 +212,7 @@ dV/V = dGDP/GDP + d(earnings/GDP)/(earnings/GDP) + dPE/PE + dDiv/Div
                                   = (growth in potential labor force + growth in labor force participation) + growth in labor producitivity
                                   (labor productivity is a sub-component of total labor productivity)
     G-K on stock return = (D1/P0 - d%Shares) + d%Earnings + d%P/E
-18. Dornbusch overshooting -> countries with higher investment return will arract capital with higher expectation, s.t. it will overshoot can depreciate a little in the end
+18. Dornbusch overshooting -> countries with higher investment return will attract capital with higher expectation, s.t. it will overshoot can depreciate a little in the end
     F/S = (1+r_dc)/(1+r_fc) -> quote in dc/fc
     F -> unbiased estimate of spot 
     (F-S)/S = (r_dc - r_fc)/(1+r_fc) = r_dc - r_fc
