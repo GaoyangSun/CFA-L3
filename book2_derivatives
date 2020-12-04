@@ -127,3 +127,8 @@ Note:
 11. if given the duration of cash, then the #futures needed
     (D_cash - D_p)*(V_target - V_p)/(D_future*V_future)
 12. to adjust bond duration with future contract, use modified duration of future
+13. a long straddle breakeven point is X - c - p or X + c + p, which has nothing to do with underlying asset price S0
+14. with asset -> covered call, protective put, collar
+    without asset -> straddle, bull/bear call/put spread
+15. when adjust an asset allocation back to target, say Vbond0, Vstock0 -> Vbond1, Vstock0
+    if adjust bond, it is (Vbond1 + Vstock0) * (Vbond0/Vbond0+Vstock0)
