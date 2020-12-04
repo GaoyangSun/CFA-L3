@@ -47,7 +47,7 @@ d_V% = d_GDP% + d_S% + d_PE% + d_divdend%
 6. business cycle
    output gap = potential GDP - acutal GDP
    [1] initial recovery
-   falling inflation, large output gap, bond yields botttom out, stock price rise
+   falling inflation, large output gap, bond yields bottom out, stock price rise
    [2] early expansion
    low inflation, bond yield rise a little, stock price rise
    [3] late expansion
@@ -169,9 +169,10 @@ dV/V = dGDP/GDP + d(earnings/GDP)/(earnings/GDP) + dPE/PE + dDiv/Div
    fiscal policy -> real int rate/ small impact on long-term rate
    restrictive monetary policy + restrictive fiscal policy -> higher short-term + lower long-term -> inverted
    restrictive monetart policy + loose/stable fiscal policy -> higher short-term + higher/stable long-term -> flat
-3. in business cycle, leading order: stock (money supply, PMI) -> economy (GDP) -> int rate (inflation) bond
+3. in business cycle, leading order: stock (money supply, PMI) -> economy (GDP->benchmark) -> bond -> inflation
    initial recovery: low or falling int rate, bond yields bottom out
    early expansion: rising int rate, stable or rising bond yields
+   recession: inflations peaks, bond yields falls, stock price may rise in the end
 4. risk premium RP_(i,glb) = beta(i, glb)*RP_glb
    (set cor(i,m)=1, you get seg)  RP_(i,sgm) = (std(i)/std(glb))*RP_glb
    RP_i = phi*RP_(i,glb) + (1-phi)*RP_(i,sgm)
