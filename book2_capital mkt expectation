@@ -223,3 +223,7 @@ dV/V = dGDP/GDP + d(earnings/GDP)/(earnings/GDP) + dPE/PE + dDiv/Div
     fed model -> forward earnings yield = long-term treasury yield. if >, then undervalued
 21. high frequency data  are more sensitive to asynchronism across variables -> tend to produce lower correlation estimates
 22. in GK model, r = d1/p0 + g = d1/p0 - d%S + d%Earnings + d%P/E -> if there is inflation data, add inflation to return
+23. i* = rneutral + πe +0.5*(Ye–Ytrend) + 0.5* (πe– πtarget) (Add INFLATION!)
+24. Var(r_portoflio) = {(1+λ)/(1- λ)}*var(R_proxy)
+25. Expected return E(Re) = Cap rate + NOI growth rate (nominal) – %ΔCap rate
+    d%Cap rate = (end CapRate - beg CapRate)/beg CapRate
