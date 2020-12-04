@@ -271,7 +271,12 @@ Notes
 30. DB plan is a form of type IV liability. timing (you don't know how long to pay) amonut (you don't know the wages before retirement)
 31. In LDI, even if the liability is certain with timing and amount, is still affected by interest rate in the form of discount rate
 32. if an outstanding bond can be retrived with a samll premium, there is no need to long a bond with duration/cash flow matching
-
+33. Butterfly spread = – (Short-term yield) + (2 x Medium-term yield) – Long-term yield
+34. effective duration can be used in evluating bonds with embeded options
+35. Futures BPV = Note BPV / Conversion Factor
+    Number of contracts = (Asset BPV – Liability BPV) / Futures BPV
+36. bond market exposure -> A total return receiver swap would entitle the investor to receive the cash flows and compensation for the appreciation in the index 
+                            in exchange for paying a floating rate plus a spread
 
 
 
