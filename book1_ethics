@@ -48,15 +48,14 @@ guidence
   well-known analyst -> 1, must state the name
   research ->  internal  for self 1, for company 0/ external 1
 [4] misconduct (mama's rule)
-  anything against integrity/ reputation/ honesty
-/ misleading/ plagiarism
+  anything against integrity/ reputation/ honesty/ misleading/ plagiarism
 - no oral/ private/ non-public
 
 5. integraity of capital mkts
 [1] material nonpublic information
 - material -> reliable source (insiders) + clear impact
   non-public -> selective group
-- not act or cause others to act, make reasonable effort to makt it public
+- not act or cause others to act, make reasonable effort to make it public
 - mosaic theory -> all other combo of public and material are doable
 - personal trading limitations -> pre-clearance on certain stock/time/amount
 - mkt maker with MNI -> cannot withdraw, remain passive
@@ -79,7 +78,7 @@ guidence
 - fair != equal, as long as better treatment for vip does not disadvantage reduced-form client
 - pro-rata on order size
 - recommend to all clients, may take care of old clients afterwards
-- family account -> not normal fee paying or manager is beneficary owner or under on roof
+- family account -> not normal fee paying or manager is beneficary owner or under one roof
 [3] suitability
 - personal/institution -> IPS, public fund -> mandate
 - change IPS annually or prior to major changes
@@ -153,7 +152,7 @@ CFA -> adj., not n.
   disclose actual fees to clients/ expected fees to prospective
   reports to clients at least quarterly, within 30 days of the end of the quarter
 [5] performance and valuation
-valuation pripity -> mkt price/ quoted price/ estimated price with actual input/ estimated price with assumed input
+valuation priority -> mkt price/ quoted price/ estimated price with actual input/ estimated price with assumed input
 [6] disclosures
 
 12. GIPS
@@ -204,7 +203,7 @@ valuation pripity -> mkt price/ quoted price/ estimated price with actual input/
 - disclose if leverage,derivatives and short positions if use is material
 - returns for periods of less than 1 year must not be annualized
 - if performance of past firm or affiliation must be linked, 
-  then decision makers/ decision-making process should be the same, and should habe supporting records
+  then decision makers/ decision-making process should be the same, and should have supporting records
 - internal dispersion -> 3 year annualized ex-post standard deviation of composite and benchmark
 - disclose if change the benchmark:date, desciption, why -> could be retroactively if the benchmark is wrongly chosen in the first place
 - verification -> to assess whether the firm complies with GIPS 
@@ -235,7 +234,7 @@ valuation pripity -> mkt price/ quoted price/ estimated price with actual input/
 Notes:
 0. one mistake in the first place does not lead to another
 1. all discretionary and fee-paying account must be in a composite. non-discretionary account cannot be in a composite.
-   accounts assgined to sub-advisor can be in a composite only if the manager has the selection power over investment
+   accounts assgined to sub-advisor can be in a composite only if the manager has the selection power over investment (discretionary)
 2. sponsor-specific report can only be presented to sponsor
 3. order of preference: mkt price/ quoted price in active mkt/ inactive mkt/ calculation using actual input/ assumed input
 4. info with no specifics can be considered non material
@@ -259,7 +258,7 @@ Notes:
 22. supervisory authority can be delegated, as long as nothing with compliance are implied
 23. 7 years of record retention is only recommended, there is no minimun requirement
 24. GIPS-compliant composite consists of all acutal fee-paying and discretionary portfolios
-25. only direct trading expense (not including mge and custodial fees) should be deducted in calculating gross-of-fess return
+25. only direct trading expense (not including mgt and custodial fees) should be deducted in calculating gross-of-fess return
 26. general investment -> valuation monthly/ gross or net-of-fees
     real estate -> valuation quarterly/ net-of-fees
     private equity -> valuation annually/ gross and net-of-fees
