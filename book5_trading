@@ -138,7 +138,7 @@ Note:
 5. trade choice
    dealer -> large, urgent
    broker -> large, non-urgent
-   OTC/ RFQ(request for quotes -> mostly used in illiquid mkt, e.g. fixed-income)
+   OTC/ RFQ(request for quotes -> mostly used in illiquid mkt, e.g. fixed-income
    ATS/MTF -> non-exchange, privacy
    DMA -> small, buy-side（专线）, exchange-traded derivatives
    dark pool -> relatively large, non-urgent, illiquid, not need to fulfill all orders, privacy
