@@ -31,7 +31,7 @@ KDRi = WiDi
   putable: part higher convexity - higher convexity over all -> expensive
 
 4. realized return
-RR = coupon + coupon reinvestment (RI risk) + capital gain/loss(price risk)
+RR = coupon + coupon reinvestment (RI risk) + capital gain/loss (price risk)
 when int rate up, coupon RI up, captial gain down
 
 - to measure RI risk - investment horizon
@@ -41,7 +41,7 @@ if investment horizon > macaulay duration, higher RI risk, and vice versa
 5. FI risk factors
 primary:
 - int rate risk
-parallel shift in yield, measured by duraton
+parallel shift in yield, measured by effective duraton
 - yield curve risk
 non-parallel shift in yield, measured by key rate duration
 - spread risk
@@ -175,7 +175,7 @@ buy a zero-coupon bond
 [2] int rate immu
 buy a coupon bond
 - exposed to RI and price risk, to offset,  PV_A >= PV_L, and MacD_A = MacD_L
-- for yield curve risk and int rate risk, to minimize, minimize convexity
+- for yield curve risk and int rate risk, to minimize convexity
   zero-coupon bond has no yield curve risk(curvature does not matter)
   low dispersion has low convexity, --  low yield curve risk
 - asset convexity > liability convexity （涨多跌少）
@@ -250,7 +250,7 @@ Notes
 16. when int rate rise, callable bond (bond - call) will not execise the option, thus increasing the value
                         putable bond (bond + put) will execise the option, thus increasing the value
 17. enhanced indexing -> try to earn back admin and other fees, if attain higher return than that, it is likely to be active mgt
-18. to long convexity -> reduce exposure to callable and MBS, long putable, long call and put options (volatility ~ convexity)
+18. to long convexity -> reduce exposure to callable and MBS (issuer's right), long putable (buyer's right), long call and put options (volatility ~ convexity)
 19. positive (right) skewed return -> long tail @ right -> mean > median. 
     most investment in emerging mkts are negatively (left) skewed
 20. methods of leverage to increase portfolio returns
@@ -267,7 +267,7 @@ Notes
 27. Immunization -> minimize the variance in the realized rate of return/ lock in the cash flow yield (internal rate of return) on the portfolio
 28. immunize a single liability -> matched Mac Duration and minimize portfolio convexity
            multiple liabilities -> larger convexity than liability but minimized in order to minimize dispersion and reduce structural risk
-29. to deal with one-time shift in yield curve -> match Mac Duration -> price effect cancel coupin reinvestment effect
+29. to deal with one-time shift in yield curve -> match Mac Duration -> price effect cancel coupon reinvestment effect
 30. DB plan is a form of type IV liability. timing (you don't know how long to pay) amonut (you don't know the wages before retirement)
 31. In LDI, even if the liability is certain with timing and amount, is still affected by interest rate in the form of discount rate
 32. if an outstanding bond can be retrived with a samll premium, there is no need to long a bond with duration/cash flow matching
