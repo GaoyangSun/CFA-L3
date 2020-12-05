@@ -111,4 +111,4 @@ Note:
    -> hard to find benchmark, may use factor-based method and historical data
    -> the unsysmetric return distribution makes it inappropriate to use sharpe ratio (which prefer symmetric return distribution), could use sortino ratio
 5. window dressing -> 价值型基金重仓小盘股，在报告期调仓，装作价值型 -> holding-based 
-6. return-based -> regressed on style indexes, easier to implment than holding-based because of the data, is less accurate than holding based
+6. return-based -> regressed on style indexes, easier to implement (the attribution) than holding-based because of the data, is less accurate than holding based
