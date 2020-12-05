@@ -71,4 +71,28 @@ clawback provison -> in private equity, to return incentive fees from profitable
     
 hiring a bad manager is type I error （more serious 拒真 更严重）, rejecting a good manager is type II error （存伪， 只是2）
 
-    
+recapitalization - split shares into voting preferred shares(hold) + non-voting common shares(transfer)
+recapitalization - staged exit
+
+elimination/waiting period - 180 days
+non-forfeiture clause -> cash value -> premium - net premium (f(coverage, mortality risk))
+guaranteed insurability -> flat premium for life
+level premium -> same premium for each year, annual premium -> different premium for each year
+gross premium = net premium + expense + profit + cash value
+
+short sale against the box -> shorting the company stock that you own
+
+probaility of ruin -> spend all money
+
+consider wage growth rate and discount rate together, adjusted discount rate = (1+discount rate)/(1+growth rate) - 1
+
+to calculate insurance needs
+-> 1. needs method -> total expense discounted - current coverage
+-> 2. human life method -> (future earnings - expenses) discounted - current coverage
+prepaid variable forward (PVFs) -> like collar -> own 1000 shares @ 50, lend @ X = 45, if S_t<50, deliver, if S_t>50, deliver less shares
+
+mortgage financing. net proceeds =  asset value * LTV
+
+rebate rate = collateral earnings rate - security lending rate (融券收益 - 融券成本）
+
+excess return over the target horizon = (Credit spread x Target horizon) – [(Expected spread – Current spread) x Spread duration]
