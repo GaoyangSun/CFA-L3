@@ -8,7 +8,7 @@ Reading 20-21
     butterfly spread = 2 * yield_mid - yield_short - yield_long
 - short-term rates are more volatile than long-term
   upward - flattens + less curved
-  downward - stepens + more curved
+  downward - steepens + more curved
 
 2. strategy - stable yield curve
 [1] buy and hold
@@ -85,7 +85,7 @@ Reading 20-21
 - borrow low int rate currency, change into fx and invest, also sign a fx forward contract to repay later
 
 [2] without currency risk
-no fx risk because you borrow and invest in the same country, profit comes from yield curve stepness
+no fx risk because you borrow and invest in the same country, profit comes from yield curve steepness
 - receive fixed (long-term) in steep mkt, receive floating (short-term) in flat mkt
 - long future in steep mkt, short future in flat mkt
 
