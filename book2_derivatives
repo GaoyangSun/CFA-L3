@@ -106,7 +106,7 @@ implied volatility ~ X
     synthetic equity (beta_portfolio=0) = risk-free + future
     
 - Equity/bond transform 
-  stock - (decrease beta) - cash - (add duration) - bond
+  stock - (decrease beta) - cash - (add duration) - bond 
 
 Note:
 1. The more ITM is an option, the higher is its (absolute) delta (closer to 1)
