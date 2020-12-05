@@ -182,7 +182,7 @@ Notes
     return-related -> sum over w_i * return_i
     risk-related (variance, tracking error) -> (sum over (w_i * risk_i)**2)**0.5
 16. buy-and-hold outperforms rebalancing strategy in an upward trending market.
-    buy-and-hold is not for conservative risk profile
+    buy-and-hold is not for conservative risk profile 
 17. core-satellite differs from alpha beta separation in that the satellite also carrys beta
 18. a fund provides exposure to the factors of size, value and quality -> have different mkt cap, P/E, debt-to-equity from benchmark (index)
 19. Private real estate funds typically report details on all properties owned, making it more transparent than hedge funds
