@@ -286,7 +286,7 @@ Note:
 4. common progressive tax regime, with a surprise, provides favorable tax treatment for int, div and cg, like flag and light
 5. tax consideration, in the favor of passive investors -> active investors -> traders
 6. core capital -> use MCS/ disconut future real needs @ real rf/ discount future nominal needs @ nominal rf
-7. charitable gift of appreciated securitie -> avoid gift transfer taxes + take an income tax deduction 
+7. charitable gift of appreciated securities -> avoid gift transfer taxes + take an income tax deduction 
 8. short sale against the box -> shorting the company stock that you own
 9. exchange fund -> exchange concentrated share with others who also own concentrated shares
 10. prepaid variable forward (PVFs) -> like collar -> own 1000 shares @ 50, lend @ X = 45, if S_t<50, deliver, if S_t>50, deliver less shares
@@ -298,7 +298,7 @@ Note:
 14. motality table -> past experience and future projections
 15. investment constraints for private clients -> time horizon, portfolio scale (or size), and tax planning. Does not include risk tolerance
 16. vested pension value -> traditional BS  unvested pension value -> economic BS
-17. HC = f(prob(survibal), wage growth rate, rf + HC risk premium)
+17. HC = f(prob(survival), wage growth rate, rf + HC risk premium)
 18. life insurance -> mortality risk (loss of HC)  /   annuities -> longevity risk
 19. irrevocable trust can not only protect claims to settlor, but also to beneficiary to some extent
 20. to avoid probate -> joint ownership/ trust/ life insurance
